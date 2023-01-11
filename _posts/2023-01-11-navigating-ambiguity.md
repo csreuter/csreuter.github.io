@@ -6,9 +6,7 @@ tags: [growth, framework, product funnel]
 comments: true
 ---
 
-### tl;dr:
-
-To know where to focus our work on the Product Growth team, we’ve created the Prefect Growth Framework. This helps us to prioritize what we work on, and what not to work on.
+**tl;dr:** To know where to focus our work on the Product Growth team, we’ve created the Prefect Growth Framework. This helps us to prioritize what we work on, and what not to work on.
 
 {: .box-note}
 **Note:** This is based on an internal blog post. I have removed some proprietary or sensitive information. I hope you still find this helpful.
