@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Navigating Ambiguity & Prioritizing Efforts
-subtitle: How Can We Be Sure That We’re Working On The Right Things?
-tags: [growth, framework, product funnel]
-comments: false
+title: Sample blog post
+subtitle: Each post also has a subtitle
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
+comments: true
 ---
 
 ### tl;dr:
