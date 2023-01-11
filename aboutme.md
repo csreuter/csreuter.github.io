@@ -3,9 +3,8 @@ layout: page
 title: About me
 subtitle: You can know the basics
 ---
-<p align="center">
+
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4)
-</p>
 
 I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and making the most out of life.
 
