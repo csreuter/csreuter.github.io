@@ -17,10 +17,13 @@ I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like 
 **Northeastern MBA, 2012: Finance**
 
 **IBM 2012-2020**
+
 I worked at IBM from 2012 until the end of 2019. I was involved in corporate finance, budgeting & planning for 2 years. I then transitioned into pricing roles, both strategic (for the Netezza acquisition) and transactional (ELA pricing). I then moved into sales management roles.
 
 **Tellius 2020-2021**
+
 I joined Tellius in early 2020 and was there for 18 months. I learned about GTM models, selling and pivoting.
 
 **Prefect 2021-Present**
+
 I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy.
