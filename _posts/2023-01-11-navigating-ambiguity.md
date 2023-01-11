@@ -19,9 +19,9 @@ Our team had a vision for a better, more flexible orchestration tool that was bu
 
 Developing Orion and the new version of Prefect Cloud around it started with big ideas that were clear priorities. It looked something like this:
 
-- [ ]  Make the open source engine & make it reliable
-- [ ]  Make the Cloud version & make it reliable
-- [ ]  Perfect the migration
+[ ]  Make the open source engine & make it reliable
+[ ]  Make the Cloud version & make it reliable
+[ ]  Perfect the migration
 
 As we got closer to achieving those above 3 obvious priorities, we started to ask ourselves: 
 
@@ -43,13 +43,13 @@ To help us prioritize our engineering and product efforts, the Product Growth te
 
 ### How we built our Framework
 
-The [Prefect Growth Framework](https://www.notion.so/Prefect-Growth-Framework-63ac2ce4749e45d6ad1efb83deea3012) is a list of roughly sequential things that a user of Prefect must do, in order to become a paying customer. A simplified version of a Growth Framework for any SaaS product might look like this:
+The Prefect Growth Framework is a list of roughly sequential things that a user of Prefect must do, in order to become a paying customer. A simplified version of a Growth Framework for any SaaS product might look like this:
 
-![Simplified Framework](https://i.imgur.com/OLkIUYS.png)
+![Simplified Framework](https://i.imgur.com/OLkIUYS.png){:width="65%"}
 
 You can think of the three steps above as aligning to an organization model.
 
-![Framework with Organizations](https://i.imgur.com/ETYFm79.png)
+![Framework with Organizations](https://i.imgur.com/ETYFm79.png){:width="65%"}
 
 The Prefect Growth Framework started out as something like the above. In order to make this actionable, we expanded on each step in order to tie them to a discrete & measurable action.
 
