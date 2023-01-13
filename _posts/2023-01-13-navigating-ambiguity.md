@@ -2,7 +2,7 @@
 layout: post
 title: Navigating ambiguity & prioritizing efforts
 subtitle: The Prefect Growth Framework
-description: The Prefect Growth Framework
+description: A few sentences on prioritizing product work using a Growth Framework
 tags: [growth, framework, product funnel]
 comments: true
 ---
@@ -46,7 +46,7 @@ To help us prioritize our engineering and product efforts, the Product Growth te
 
 The Prefect Growth Framework is a list of roughly sequential things that a user of Prefect must do, in order to become a paying customer. A simplified version of a Growth Framework for any SaaS product might look like this:
 
-![Simplified Framework](https://i.imgur.com/OLkIUYS.png){:width="45%"}
+![Simplified Framework](https://i.imgur.com/OLkIUYS.png){:width="35%"}
 
 You can think of the three steps above as aligning to an organization model.
 
