@@ -9,7 +9,7 @@
 title: Musings
 
 # Short description of your site
-description: Writing about Growth and other things.
+description: Writing on the wall.
 
 # GitHub Actions
 repository: "VincentTam/beautiful-jekyll"
@@ -25,10 +25,7 @@ author: Chris Reuter
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Home: "https://chrisreuter.me"
+  Blog: "https://chrisreuter.me"
 
 # --- Logo --- #
 
