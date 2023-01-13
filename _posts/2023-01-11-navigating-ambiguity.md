@@ -45,7 +45,7 @@ To help us prioritize our engineering and product efforts, the Product Growth te
 
 The Prefect Growth Framework is a list of roughly sequential things that a user of Prefect must do, in order to become a paying customer. A simplified version of a Growth Framework for any SaaS product might look like this:
 
-![Simplified Framework](https://i.imgur.com/OLkIUYS.png){:width="65%"}
+![Simplified Framework](https://i.imgur.com/OLkIUYS.png){:width="45%"}
 
 You can think of the three steps above as aligning to an organization model.
 
@@ -76,7 +76,7 @@ Now that we have established a Framework for making decisions, we need to sprink
 
 You could approach this in several different ways. We started by laying out our Growth Framework metrics in a product funnel. It looked something like this:
 
-![Product Funnel Metrics](https://i.imgur.com/OgAkzmx.png)
+![Product Funnel Metrics](https://i.imgur.com/OgAkzmx.png){:width="50%"}
 
 In our case, we are generally focusing on the framework steps that have the lowest conversion rates. In the graph above, that would be the lines with the largest gaps between them.
 
