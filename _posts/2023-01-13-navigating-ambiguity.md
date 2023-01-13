@@ -7,14 +7,14 @@ tags: [growth, framework, product funnel]
 comments: true
 ---
 
-**tl;dr:** To know where to focus our work on the Product Growth team, we’ve created the Prefect Growth Framework. This helps us to prioritize what we work on, and what not to work on.
+**tl;dr:** To know where to focus our work on the Product Growth team, we’ve created the [Prefect](https://www.prefect.io) Growth Framework. This helps us to prioritize what we work on, and what not to work on.
 
 {: .box-note}
 **Note:** This is based on an internal blog post. I have removed some proprietary or sensitive information. I hope you still find this helpful.
 
 ### How we got here
 
-In the first week that I joined Prefect, I watched a recording of our most recent company update (called a Chapter Update). It featured our CEO describing something that was called Orion. I eventually learned that Orion was really the engine behind Prefect 2 - our next generation orchestration platform. Surprise, we were rebuilding the product of the company that I just joined!
+In the first week that I joined [Prefect](https://www.prefect.io), I watched a recording of our most recent company update (called a Chapter Update). It featured our CEO describing something that was called Orion. I eventually learned that Orion was really the engine behind Prefect 2 - our next generation orchestration platform. Surprise, we were rebuilding the product of the company that I just joined!
 
 Our team had a vision for a better, more flexible orchestration tool that was built for incremental adoption. It turns out through the glasses of retrospect that redeveloping Prefect from the ground up was an obvious decision: it has been a groundbreaking advancement in orchestration for many of our existing users, and has made it easy for an entire new class of Python developers to adopt orchestration.
 
@@ -60,7 +60,7 @@ The above list of steps are what any individual user typically performs in order
 
 ### Making decisions with a Framework
 
-On the Product team focused on Growth here at Prefect, we have made a conscious choice: **if a proposed idea isn’t an obvious choice, we prioritize it using the growth framework.**
+On the Product team focused on Growth here at [Prefect](https://www.prefect.io), we have made a conscious choice: **if a proposed idea isn’t an obvious choice, we prioritize it using the growth framework.**
 
 One benefit of creating a detailed Growth Framework is that most of the steps are represented by a metric that we can track. With some exceptions (we can’t and won’t track what open source users are doing), we can identify how many users are progressing through this Framework across different times, cohorts, origins, etc.
 
