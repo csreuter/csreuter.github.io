@@ -2,6 +2,7 @@
 layout: post
 title: Navigating ambiguity & prioritizing efforts
 subtitle: The Prefect Growth Framework
+description: The Prefect Growth Framework
 tags: [growth, framework, product funnel]
 comments: true
 ---
@@ -49,7 +50,7 @@ The Prefect Growth Framework is a list of roughly sequential things that a user 
 
 You can think of the three steps above as aligning to an organization model.
 
-![Framework with Organizations](https://i.imgur.com/ETYFm79.png){:width="65%"}
+![Framework with Organizations](https://i.imgur.com/ETYFm79.png){:width="45%"}
 
 The Prefect Growth Framework started out as something like the above. In order to make this actionable, we expanded on each step in order to tie them to a discrete & measurable action.
 
@@ -76,7 +77,7 @@ Now that we have established a Framework for making decisions, we need to sprink
 
 You could approach this in several different ways. We started by laying out our Growth Framework metrics in a product funnel. It looked something like this:
 
-![Product Funnel Metrics](https://i.imgur.com/OgAkzmx.png){:width="50%"}
+![Product Funnel Metrics](https://i.imgur.com/OgAkzmx.png){:width="60%"}
 
 In our case, we are generally focusing on the framework steps that have the lowest conversion rates. In the graph above, that would be the lines with the largest gaps between them.
 
