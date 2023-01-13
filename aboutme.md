@@ -2,6 +2,7 @@
 layout: page
 title: About me
 subtitle: You can know the basics
+description: Chris Reuter is a human.
 ---
 
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
