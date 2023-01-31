@@ -20,9 +20,9 @@ Our team had a vision for a better, more flexible orchestration tool that was bu
 
 Developing Orion and the new version of Prefect Cloud around it started with big ideas that were clear priorities. It looked something like this:
 
-[ ]  Make the open source engine & make it reliable
-[ ]  Make the Cloud version & make it reliable
-[ ]  Perfect the migration
+-  Make the open source engine & make it reliable
+-  Make the Cloud version & make it reliable
+-  Perfect the migration
 
 As we got closer to achieving those above 3 obvious priorities, we started to ask ourselves: 
 
