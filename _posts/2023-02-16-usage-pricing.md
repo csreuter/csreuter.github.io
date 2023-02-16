@@ -20,8 +20,13 @@ Usage-based pricing has been the darling of SaaS founders since Twilio, Stripe, 
 [I’m not sure you’ve heard, but I’m from Maine](https://twitter.com/CSReuter/status/1331931049052540934). Coupling this with my experiences at a little company called IBM informs much of who I am today. I had the privilege at IBM to observe the disruption in the data warehouse market throughout the 2010s. First, the promise of Hadoop materialized. Everyone was excited about cheap servers and big data — until they realized it wasn’t the answer.
 
 <figure>
-    <img src="/assets/img/horrified-chris.gif" alt="Chris Farley in a coffee crystals commercial">
-    <figcaption>2 years after investing in Cloudera</figcaption>
+  <img
+    src="/assets/img/horrified-chris.gif"
+     alt="Chris Farley in a coffee crystals commercial"
+     class="img-responsive"
+     style="{{ include.style }}"
+    >
+  <figcaption>2 years after investing in Cloudera</figcaption>
 </figure>
 
 Spark continued the data lake promise of Hadoop, and (I guess) it’s going OK. Databricks seems to be [crushing it](https://techcrunch.com/2021/02/01/databricks-raises-1b-at-28b-valuation-as-it-reaches-425m-arr/).
