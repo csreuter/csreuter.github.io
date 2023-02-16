@@ -3,6 +3,8 @@ layout: post
 title: Usage-based pricing isn't always best
 subtitle: When not to make consumption your primary pricing metric
 description: When not to make consumption your primary pricing metric
+thumbnail-img: /assets/img/horrified-chris.gif
+share-img: /assets/img/horrified-chris.gif
 tags: [pricing, usage, consumption, usage pricing]
 comments: false
 ---
