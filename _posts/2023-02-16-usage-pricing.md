@@ -44,14 +44,14 @@ In competitive deals, [Snowflake pricing](https://www.snowflake.com/pricing/) wo
 This allowed Snowflake sellers to make a stupid spreadsheet like the above, take Netezza logs, plug them in, and then make a cost-savings play because Snowflake pricing is consumption-time based. Of course, buying a 112-core system and sticking it in a data center will be more expensive than renting 200 cores in someone else’s data center for 6 hours a day.
 
 {: .box-note}
-🚚 Believe it or not, many Netezza customers had ELT periods of 6+ hours. They paid millions of dollars to make up for poor data engineering skills.
+🕒 Believe it or not, many Netezza customers had ELT periods of 6+ hours. They paid millions of dollars to make up for poor data engineering skills.
 
 Snowflake ended up eating Netezza alive. IBM eventually killed the platform in favor of a [columnar db2 appliance](https://www.ibm.com/docs/en/ias?topic=system-overview), and the migration was a nightmare for customers with tons of data ingestion and stored procedure tech debt. In 2020 they resurrected “Netezza Performance Server”, and I’m honestly not sure how it is doing. Looks like [some people are using it](https://www.g2.com/products/ibm-netezza-performance-server/reviews).
 
 In retrospect, Snowflake was always going to win. As soon as it became clear that IaaS was cheaper and more reliable than your own on-prem servers, it was only a matter of time before even the oldest and most conservative of companies would move to Snowflake/BigQuery/Redshift.
 
 {: .box-note}
-🎊 Why did Snowflake win among the big 3 cloud DWs? Pre-2019, Redshift didn’t have [good autoscaling](https://aws.amazon.com/about-aws/whats-new/2019/03/AmazonRedshift-ConcurrencyScaling/) or [stored procedure support](https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-redshift-now-supports-stored-procedures/). BigQuery based their [pricing](https://cloud.google.com/bigquery/pricing) on TB scanned or slots, both of which the market kind of hates. Google also spent a long time in the early 2010s focusing on something other than SQL which, while it may seem bananas now, was not that crazy when everyone thought Java was going to be the data engineering language of choice.
+🥇 Why did Snowflake win among the big 3 cloud DWs? Pre-2019, Redshift didn’t have [good autoscaling](https://aws.amazon.com/about-aws/whats-new/2019/03/AmazonRedshift-ConcurrencyScaling/) or [stored procedure support](https://aws.amazon.com/about-aws/whats-new/2019/05/amazon-redshift-now-supports-stored-procedures/). BigQuery based their [pricing](https://cloud.google.com/bigquery/pricing) on TB scanned or slots, both of which the market kind of hates. Google also spent a long time in the early 2010s focusing on something other than SQL which, while it may seem bananas now, was not that crazy when everyone thought Java was going to be the data engineering language of choice.
 
 Similar dynamics happened for Stripe & Twilio. Formerly expensive, chunky things like payment processing and text messages were disrupted by applying IaaS to the problem and making it attractive with 10x cheaper TCO enabled by a usage metric.
 
