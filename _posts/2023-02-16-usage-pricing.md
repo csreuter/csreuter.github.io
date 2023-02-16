@@ -26,7 +26,7 @@ Usage-based pricing has been the darling of SaaS founders since Twilio, Stripe, 
      class="img-responsive"
      style="{{ include.style }}"
     >
-  <figcaption>_2 years after investing in Cloudera_</figcaption>
+  <figcaption>2 years after investing in Cloudera</figcaption>
 </figure>
 
 Spark continued the data lake promise of Hadoop, and (I guess) it’s going OK. Databricks seems to be [crushing it](https://techcrunch.com/2021/02/01/databricks-raises-1b-at-28b-valuation-as-it-reaches-425m-arr/).
@@ -43,7 +43,7 @@ Suddenly, around 2014-2015, I started seeing significantly higher discounts on d
 
 <figure>
     <img src="/assets/img/Snowflake-Table.png" alt="A fake Snowflake pricing spreadsheet">
-    <figcaption>_This is obviously representative and totally made up_</figcaption>
+    <figcaption>This is obviously representative and totally made up</figcaption>
 </figure>
 
 In competitive deals, [Snowflake pricing](https://www.snowflake.com/pricing/) would always be 20-30% of the TCO of an equivalent Netezza system. The problem wasn’t that one performed worse than the other. Core-for-core, Netezza actually performed better than Snowflake at the time. The problem was that Snowflake could scale up and down at will — taking advantage of IaaS elasticity and costs.
