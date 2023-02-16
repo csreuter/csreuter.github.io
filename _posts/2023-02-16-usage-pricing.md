@@ -19,25 +19,25 @@ Usage-based pricing has been the darling of SaaS founders since Twilio, Stripe, 
 
 [I’m not sure you’ve heard, but I’m from Maine](https://twitter.com/CSReuter/status/1331931049052540934). Coupling this with my experiences at a little company called IBM informs much of who I am today. I had the privilege at IBM to observe the disruption in the data warehouse market throughout the 2010s. First, the promise of Hadoop materialized. Everyone was excited about cheap servers and big data — until they realized it wasn’t the answer.
 
+{% figure caption:"2 years after investing in Cloudera" %}
 ![2 years after investing in Cloudera](/assets/img/horrified-chris.gif)
-
-2 years after investing in Cloudera
+{% endfigure %}
 
 Spark continued the data lake promise of Hadoop, and (I guess) it’s going OK. Databricks seems to be [crushing it](https://techcrunch.com/2021/02/01/databricks-raises-1b-at-28b-valuation-as-it-reaches-425m-arr/).
 
-Leading up to and during this period, IaaS was becoming reliable, ubiquitous and trusted. All of a sudden, you didn’t have to buy bare metal, install it in a warehouse, manage patches, pay for people to work at the data center, cool it, etc, etc, etc. New data warehousing competitors sprung up to take advantage of paying **********************only for what you used**********************.
+Leading up to and during this period, IaaS was becoming reliable, ubiquitous and trusted. All of a sudden, you didn’t have to buy bare metal, install it in a warehouse, manage patches, pay for people to work at the data center, cool it, etc, etc, etc. New data warehousing competitors sprung up to take advantage of paying **only for what you used**.
 
 I was a lowly pricing analyst for a division of IBM called Netezza. Formerly the [appliance leader](https://en.wikipedia.org/wiki/Data_warehouse_appliance) of the data warehouse market, [Netezza was acquired in 2009 for $1.7B](https://www.computerworld.com/article/2749200/ibm-to-acquire-netezza-for--1-7-billion.html). They had made oodles of money ripping out dbt, Oracle and Teradata warehouses while competing with the new columnar hotness of the time (Vertica + Greenplum).
 
 ## And now, a story
 
-As a pricing analyst, I got to be included in transactions where exceptional discounts were requested. The street price of Netezza was once ~700-800k per full 42U rack with 15% in support each year after that. [A rack had about 48TB of raw storage](https://www.ibm.com/docs/en/psfa/7.2.1?topic=hardware-puredata-system-analytics-n2001-n2002-model-summary), and you could get around ~200TB of effective space with 4x compression. Believe it or not, customers were not paying for disk space — they cared about ***********speed.*********** Netezza was fast. Omega fast.
+As a pricing analyst, I got to be included in transactions where exceptional discounts were requested. The street price of Netezza was once ~700-800k per full 42U rack with 15% in support each year after that. [A rack had about 48TB of raw storage](https://www.ibm.com/docs/en/psfa/7.2.1?topic=hardware-puredata-system-analytics-n2001-n2002-model-summary), and you could get around ~200TB of effective space with 4x compression. Believe it or not, customers were not paying for disk space — they cared about **speed**, and Netezza was omega fast.
 
 Suddenly, around 2014-2015, I started seeing significantly higher discounts on deals. The common denominator was a competitor called Snowflake. The trick with these Snowflake deals was that they would show customers a spreadsheet like this:
 
+{% figure caption:"This is obviously representative and totally made up" %}
 ![This is obviously representative and totally made up](/assets/img/Snowflake-Table.png){:width="45%"}
-
-This is obviously representative and totally made up
+{% endfigure %}
 
 In competitive deals, [Snowflake pricing](https://www.snowflake.com/pricing/) would always be 20-30% of the TCO of an equivalent Netezza system. The problem wasn’t that one performed worse than the other. Core-for-core, Netezza actually performed better than Snowflake at the time. The problem was that Snowflake could scale up and down at will — taking advantage of IaaS elasticity and costs.
 
