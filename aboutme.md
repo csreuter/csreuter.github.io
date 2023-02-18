@@ -5,6 +5,8 @@ subtitle: You can know the basics
 description: Chris Reuter is a human.
 ---
 
+`pip install -U csreuter`
+
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
 
 I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
