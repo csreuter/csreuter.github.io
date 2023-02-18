@@ -102,6 +102,8 @@ img {
   max-width: 100%;
 }
 
+img + em { }
+
 .linked-section {
   padding-top: 3.75rem;
   margin-top: -1.5625rem;
