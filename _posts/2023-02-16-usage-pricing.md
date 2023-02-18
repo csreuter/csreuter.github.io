@@ -19,8 +19,7 @@ Usage-based pricing has been the darling of SaaS founders since Twilio, Stripe, 
 
 [I’m not sure you’ve heard, but I’m from Maine](https://twitter.com/CSReuter/status/1331931049052540934). Coupling this with my experiences at a little company called IBM informs much of who I am today. I had the privilege at IBM to observe the disruption in the data warehouse market throughout the 2010s. First, the promise of Hadoop materialized. Everyone was excited about cheap servers and big data — until they realized it wasn’t the answer.
 
-!["Chris Farley in a coffee crystals commercial"](/assets/img/horrified-chris.gif)
-*2 years after investing in Cloudera*
+{% include image.html url="/assets/img/horrified-chris.gif" description="2 years after investing in Cloudera" %}
 
 Spark continued the data lake promise of Hadoop, and (I guess) it’s going OK. Databricks seems to be [crushing it](https://techcrunch.com/2021/02/01/databricks-raises-1b-at-28b-valuation-as-it-reaches-425m-arr/).
 
@@ -34,8 +33,7 @@ As a pricing analyst, I got to be included in transactions where exceptional dis
 
 Suddenly, around 2014-2015, I started seeing significantly higher discounts on deals. The common denominator was a competitor called Snowflake. The trick with these Snowflake deals was that they would show customers a spreadsheet like this:
 
-![A fake Snowflake pricing spreadsheet](/assets/img/Snowflake-Table.png)
-*This is obviously representative and totally made up*
+{% include image.html url="/assets/img/Snowflake-Table.png" description="This is obviously representative and totally made up" %}
 
 In competitive deals, [Snowflake pricing](https://www.snowflake.com/pricing/) would always be 20-30% of the TCO of an equivalent Netezza system. The problem wasn’t that one performed worse than the other. Core-for-core, Netezza actually performed better than Snowflake at the time. The problem was that Snowflake could scale up and down at will — taking advantage of IaaS elasticity and costs.
 
