@@ -33,7 +33,7 @@ Spark continued the data lake promise of Hadoop, and (I guess) it’s going OK. 
 
 Leading up to and during this period, IaaS was becoming reliable, ubiquitous and trusted. All of a sudden, you didn’t have to buy bare metal, install it in a warehouse, manage patches, pay for people to work at the data center, cool it, etc, etc, etc. New data warehousing competitors sprung up to take advantage of paying **only for what you used**.
 
-I was a lowly pricing analyst for a division of IBM called Netezza. Formerly the [appliance leader](https://en.wikipedia.org/wiki/Data_warehouse_appliance) of the data warehouse market, [Netezza was acquired in 2009 for $1.7B](https://www.computerworld.com/article/2749200/ibm-to-acquire-netezza-for--1-7-billion.html). They had made oodles of money ripping out dbt, Oracle and Teradata warehouses while competing with the new columnar hotness of the time (Vertica + Greenplum).
+I was a lowly pricing analyst for a division of IBM called Netezza. Formerly the [appliance leader](https://en.wikipedia.org/wiki/Data_warehouse_appliance) of the data warehouse market, [Netezza was acquired in 2009 for $1.7B](https://www.computerworld.com/article/2749200/ibm-to-acquire-netezza-for--1-7-billion.html). They had made oodles of money ripping out db2 [^1], Oracle and Teradata warehouses while competing with the new columnar hotness of the time (Vertica + Greenplum).
 
 ## And now, a story
 
@@ -94,3 +94,5 @@ You’re betting on the 0.1% of companies that will embed your product to the ex
 Your product is unique, and if you follow these rules without thought you’re going to fail. At early stages, experiment with pricing by talking to prospective users. At mid-to-later stages, talk to your existing customers or introduce different pricing metrics/caps into new deals. At all stages, don’t be afraid to change your pricing until you find what works for you.
 
 Have a different take? [I want to hear about it](https://twitter.com/csreuter).
+
+[^1]: A previous version of this had a typo, where dbt was listed instead of db2. Big shoutout to [Emil Christensen](https://github.com/EmilRex) for the catch!
