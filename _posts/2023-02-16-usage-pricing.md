@@ -72,7 +72,7 @@ Take GitHub for example. Git collaboration platforms save companies millions of 
 
 While you might not be a great candidate for usage-based pricing as a primary metric, you can still include it in your pricing tiers as a secondary metric.
 
-B2B SaaS has always relied on the whales to effectively monetize. In following with the Pareto Principle, a disproportionate % of revenue comes from a very small % of clients. This is [concept of a fat tail](https://whoisnnamdi.com/software-fat-tailed/).
+B2B SaaS has always relied on the whales to effectively monetize. In following with the Pareto Principle, a disproportionate % of revenue comes from a very small % of clients. This is the [concept of a fat tail](https://whoisnnamdi.com/software-fat-tailed/).
 
 Usage is probably a part of your product, but you may inhibit adoption based on the objections above. The solution is to place a usage-based cap on your pricing tiers. If a team or organization can embed your product with accessible pricing, they’re more likely to hit usage caps on whatever tier they are on. Once usage caps are breached, then the usage metric can flip to your primary metric on a client-by-client basis.
 
