@@ -4,6 +4,8 @@ title: Creating The Prefect Activation Metric
 subtitle: or, Did It Really Need To Be This Complex?
 description: How we created our activation metric at Prefect, how we use it, and some lessons learned
 tags: [growth, activation]
+thumbnail-img: /assets/img/workspace-activation.png
+share-img: /assets/img/workspace-activation.png
 comments: false
 ---
 
@@ -33,7 +35,7 @@ We have 3 activation metrics that represent 3 different abstractions of Prefect 
 
 Our activation scores are simple weighted averages that yield a composite score between 0 and 100. Here is a snapshot of the `workspace` activation score:
 
-![Screenshot 2023-03-07 at 11.30.59 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7a3e50b-4744-4151-8f05-b1a04a09de80/Screenshot_2023-03-07_at_11.30.59_PM.png)
+![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="50%"}
 
 Each row can be assigned a score of 0 to 100, and each row has a weight. We assigned 50% of the overall score to usage and 50% to feature milestones. You’ll notice that the feature milestones align closely to the [Prefect Growth Framework](https://chrisreuter.me/2023-01-13-navigating-ambiguity/).
 
@@ -51,17 +53,17 @@ The case can be made for both a simple and a complex activation metric. What is 
 
 Our first activation metric was based on a pairwise [correlation matrix](https://en.wikipedia.org/wiki/Correlation#Correlation_matrices). We had a large table of users, counts of events they had performed, and how much they had spent lifetime. It looked something like this:
 
-![feature-table.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3f44f83f-c476-4e99-9c97-22f325072eca/feature-table.png)
+![Feature Table](/assets/img/activation-feature-table.png){:width="75%"}
 
  I wrote a simple Python script that calculated correlation between each feature, and laid the results out in what is called a pairwise matrix. I used `.corr()` and Seaborn’s `heatmap` to create the below matrix ([guide here](https://medium.com/@szabo.bibor/how-to-create-a-seaborn-correlation-heatmap-in-python-834c0686b88e)).
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92914c22-2b4d-49e4-8cea-418cd9ea6699/Untitled.png)
+![Correlation Matrix Heatmap](/assets/img/activation-heatmap.png){:width="50%"}
 
 We used this heatmap to identify where correlation between spend and 1st order events seemed high, and worked backwards from there to find 2nd order events/actions that were correlated with the 1st order events.
 
 We then applied a little bit of gut feel and assigned weights to each of these actions. This resulted in our first activation metric that looked like this:
 
-![Screenshot 2023-03-08 at 4.42.23 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/034f9390-74f0-44b7-8484-7a6681bb2be1/Screenshot_2023-03-08_at_4.42.23_PM.png)
+![The original activation score](/assets/img/cloud1-activation.png){:width="50%"}
 
 ### Cloud 2 & the move to 3 scores
 
@@ -69,9 +71,11 @@ When we released our next generation product, we introduced additional abstracti
 
 Inspired by our original activation metric, we composed 3 new activation metrics in a similar format to our Cloud 1 metric - with our new concepts (deployments, work queues, etc.). We didn’t have a great feature to optimize for (as we had with spend previously), but we liked the format of the metric and created something similar. Below is the `workspace` activation metric.
 
+![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="50%"}
+
 # How we use them
 
-Thanks to the help of our data team, activation scores are calculated nightly using Prefect + dbt. We store all of this data in BigQuery for aggregate analysis and make it available at the individual level to a variety of other tools using Census.
+Thanks to the help of our data team, activation scores are calculated nightly using Prefect + [dbt](https://github.com/dbt-labs/dbt-core). We store all of this data in BigQuery for aggregate analysis and make it available at the individual level to a variety of other tools using Census.
 
 ### Individual metrics
 
@@ -96,24 +100,18 @@ Our activation metric and its subcomponents powers many of our processes today:
 
 However, it was not an overnight success. We didn’t have a ton of people adopt the activation metric at first. They didn’t get what it was, and it wasn’t immediately useful to them. However, when they needed a quick way to understand a user’s progress, my team would ******always****** offer up the activation score and a definition of what it was.
 
-<aside>
+{: .box-note}
 1️⃣ The lesson learned here: be persistent & make it useful. If it is helpful, it will be adopted. People won’t get it right away, and that’s OK. They will over time.
-
-</aside>
 
 One hidden benefit of creating an activation score on the complex side of the spectrum is that it forces you to effectively create and maintain many metrics. We ended up using the subcomponents of the user activation score in our email onboarding workflow.
 
-<aside>
+{: .box-note}
 2️⃣ Data related to activation can be operationally helpful, and not just an analytics experiment
-
-</aside>
 
 Finally, I’ve learned from our activation metric is that our product is never-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
 
-<aside>
+{: .box-note}
 3️⃣ Your activation metric doesn’t have to be static - don’t be afraid to change it early and often.
-
-</aside>
 
 ### I’m here to chat
 
