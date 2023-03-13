@@ -35,7 +35,7 @@ We have 3 activation metrics that represent 3 different abstractions of Prefect 
 
 Our activation scores are simple weighted averages that yield a composite score between 0 and 100. Here is a snapshot of the `workspace` activation score:
 
-![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="50%"}
+![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="75%"}
 
 Each row can be assigned a score of 0 to 100, and each row has a weight. We assigned 50% of the overall score to usage and 50% to feature milestones. You’ll notice that the feature milestones align closely to the [Prefect Growth Framework](https://chrisreuter.me/2023-01-13-navigating-ambiguity/).
 
@@ -57,13 +57,13 @@ Our first activation metric was based on a pairwise [correlation matrix](https:/
 
  I wrote a simple Python script that calculated correlation between each feature, and laid the results out in what is called a pairwise matrix. I used `.corr()` and Seaborn’s `heatmap` to create the below matrix ([guide here](https://medium.com/@szabo.bibor/how-to-create-a-seaborn-correlation-heatmap-in-python-834c0686b88e)).
 
-![Correlation Matrix Heatmap](/assets/img/activation-heatmap.png){:width="50%"}
+![Correlation Matrix Heatmap](/assets/img/activation-heatmap.png){:width="75%"}
 
 We used this heatmap to identify where correlation between spend and 1st order events seemed high, and worked backwards from there to find 2nd order events/actions that were correlated with the 1st order events.
 
 We then applied a little bit of gut feel and assigned weights to each of these actions. This resulted in our first activation metric that looked like this:
 
-![The original activation score](/assets/img/cloud1-activation.png){:width="50%"}
+![The original activation score](/assets/img/cloud1-activation.png){:width="40%"}
 
 ### Cloud 2 & the move to 3 scores
 
@@ -71,7 +71,7 @@ When we released our next generation product, we introduced additional abstracti
 
 Inspired by our original activation metric, we composed 3 new activation metrics in a similar format to our Cloud 1 metric - with our new concepts (deployments, work queues, etc.). We didn’t have a great feature to optimize for (as we had with spend previously), but we liked the format of the metric and created something similar. Below is the `workspace` activation metric.
 
-![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="50%"}
+![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="75%"}
 
 # How we use them
 
