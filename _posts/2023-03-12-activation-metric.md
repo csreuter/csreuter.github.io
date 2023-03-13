@@ -4,8 +4,8 @@ title: Creating The Prefect Activation Metric
 subtitle: or, Did It Really Need To Be This Complex?
 description: How we created our activation metric at Prefect, how we use it, and some lessons learned
 tags: [growth, activation]
-thumbnail-img: /assets/img/workspace-activation.png
-share-img: /assets/img/workspace-activation.png
+thumbnail-img: /assets/img/activation-feature-table.png
+share-img: /assets/img/activation-feature-table.png
 comments: false
 ---
 
