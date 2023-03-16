@@ -108,7 +108,7 @@ One hidden benefit of creating an activation score on the complex side of the sp
 {: .box-note}
 2️⃣ Data related to activation can be operationally helpful, and not just an analytics experiment
 
-Finally, I’ve learned from our activation metric is that our product is never-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
+Finally, I’ve learned from our activation metric is that our product is ever-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
 
 {: .box-note}
 3️⃣ Your activation metric doesn’t have to be static - don’t be afraid to change it early and often.
