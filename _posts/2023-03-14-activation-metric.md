@@ -80,7 +80,7 @@ Thanks to the help of our data team, activation scores are calculated nightly us
 ### Individual metrics
 
 - [customer.io](https://customer.io/)
-    - We use our activation score & it’s components to power our onboarding and engagement workflows in our marketing automation tool, customer.io.
+    - We use our activation score & its components to power our onboarding and engagement workflows in our marketing automation tool, customer.io.
 - [Orbit](https://orbit.love/)
     - We have started pushing activation data to Orbit, our central clearinghouse for community data. This helps anyone working with community members to understand where they are with their Prefect Cloud journey.
 - Salesforce
@@ -92,7 +92,7 @@ We perform product experiments (often UI-based), like adding a mock code termina
 
 # Some lessons learned
 
-Our activation metric and its subcomponents powers many of our processes today:
+Our activation metric and its subcomponents power many of our processes today:
 
 - Onboarding personalization
 - Snapshot of user success for our GTM teams
@@ -108,7 +108,7 @@ One hidden benefit of creating an activation score on the complex side of the sp
 {: .box-note}
 2️⃣ Data related to activation can be operationally helpful, and not just an analytics experiment
 
-Finally, I’ve learned from our activation metric is that our product is ever-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
+Finally, I've learned from our activation metric that our product is ever-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
 
 {: .box-note}
 3️⃣ Your activation metric doesn’t have to be static - don’t be afraid to change it early and often.
