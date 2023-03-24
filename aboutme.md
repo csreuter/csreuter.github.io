@@ -17,11 +17,11 @@ I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like 
 
 **Prefect 2021-Present**
 
-I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy.
+I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy. I'm responsible for our self-serve motion, where my team collaborates with other parts of the company on things like pricing, growth marketing and growth engineering.
 
 **Tellius 2020-2021**
 
-I joined Tellius in early 2020 and was there for 18 months. I learned about GTM models, selling and pivoting.
+I joined Tellius in early 2020 and was there for 18 months. I learned about GTM models, selling and pivoting from sales-led to product-led.
 
 **IBM 2012-2020**
 
