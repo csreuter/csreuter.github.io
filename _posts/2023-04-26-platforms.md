@@ -13,7 +13,7 @@ I didn’t ChatGPT this but it was tempting
 
 ## Individual tools of the 90s
 
-According to my dad and a whole bunch of other reliable sources, [VisiCalc](https://en.wikipedia.org/wiki/VisiCalc) was the first commercially successful application - a must-have that in part drove the adoption of the Apple II. It was eventually followed (and killed) by [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) in the early 80s, which became a killer app of the IBM PC from era (so much so that I was still using Lotus Notes for email in 2019 while working at IBM)(1).
+According to my dad and a whole bunch of other reliable sources, [VisiCalc](https://en.wikipedia.org/wiki/VisiCalc) was the first commercially successful application - a must-have that in part drove the adoption of the Apple II. It was eventually followed (and killed) by [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) in the early 80s, which became a killer app of the IBM PC from era (so much so that I was still using Lotus Notes for email in 2019 while working at IBM)[^1].
 
 In the 90s some of the most popular consumer applications were Microsoft Word & Excel, WinAmp, Netscape, McAfee, etc. What made VisiCal, Lotus 1-2-3, Winamp, and any other early applications popular? They were built and scoped to a very specific use case. Individual applications were almost always the first or second of their kind - and they had to be built slowly and with a narrow scope. Incremental change is the name of the innovation game, after all.
 
@@ -78,8 +78,8 @@ Given the incentive structure of public and venture-funded companies, they might
 
 Maybe the real problem is that innovation and creativity is hard, and value capture is easier when you can create average features for a totally new market. Perhaps there is an incentive structure for individual tools to stay focused - and that answer might be open source - but until that incentive structure is clearer, I worry that even the most niche of niche tool will either turn into a monstrosity or be incorporated into one.
 
-1: IBM was a great company to work for - but sometimes good comes with bad, especially at that scale.
-
 ### I’m here to chat
 
-If you want to talk about quantifying activation, I’d be happy to. [Find me on Twitter](https://twitter.com/csreuter), or you can email me at christopher (dot) s (dot) reuter (at) gmail (dot) com.
+If you want to talk about software platforms, I’d be happy to. [Find me on Twitter](https://twitter.com/csreuter), or you can email me at christopher (dot) s (dot) reuter (at) gmail (dot) com.
+
+[^1]: IBM was a great company to work for - but sometimes good comes with bad, especially at that scale.
