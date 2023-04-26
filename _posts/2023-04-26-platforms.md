@@ -4,114 +4,81 @@ title: Are Software Platforms Inevitable?
 subtitle: A look at how software platforms come to be
 description: Software platforms emerged from the 90s productivity suites and now dominate business software. This is a look at how they came to be, and if we're stuck with them.
 tags: [software, platform, SaaS]
-thumbnail-img: /assets/img/activation-feature-table.png
-share-img: /assets/img/activation-feature-table.png
+thumbnail-img: /assets/img/villain.png
+share-img: /assets/img/villain.png
 comments: false
 ---
+{: .box-note}
+I didn’t ChatGPT this but it was tempting
 
-# Creating the Prefect Activation Metric
+## Individual tools of the 90s
 
-At [Prefect](https://www.prefect.io/), we use activation metrics to measure how our users are engaging with our product. The purpose of these metrics are twofold: to determine an individual user’s engagement with Prefect Cloud, and to measure our user base in aggregate. Scores for individual users help us deliver targeted content, identify prospective clients early in the adoption process, and understand a user’s journey. Aggregate scores help us understand what growth tactics to invest in. In this post, I’ll cover our activation metrics (we have three), how we made them, and how we use them.
+According to my dad and a whole bunch of other reliable sources, [VisiCalc](https://en.wikipedia.org/wiki/VisiCalc) was the first commercially successful application - a must-have that in part drove the adoption of the Apple II. It was eventually followed (and killed) by [Lotus 1-2-3](https://en.wikipedia.org/wiki/Lotus_1-2-3) in the early 80s, which became a killer app of the IBM PC from era (so much so that I was still using Lotus Notes for email in 2019 while working at IBM)(1).
 
-# Why use an activation metric?
+In the 90s some of the most popular consumer applications were Microsoft Word & Excel, WinAmp, Netscape, McAfee, etc. What made VisiCal, Lotus 1-2-3, Winamp, and any other early applications popular? They were built and scoped to a very specific use case. Individual applications were almost always the first or second of their kind - and they had to be built slowly and with a narrow scope. Incremental change is the name of the innovation game, after all.
 
-When I first joined Prefect, we looked at a variety of different attributes at the user and account level. There are [concepts in Prefect](https://docs.prefect.io/concepts/overview/) like `flow` and `task`, `collaborator` and `automation`, so on and so forth. Most of the time when someone asked “how is this user doing”, we would look at a dashboard that had all of these individual metrics neatly laid out over time. It took mental effort to develop an understanding of a single customer, and it was difficult to comprehend how effectively our users adopted our product across cohorts.
+Software at the time was also just broadly ***new***, digital natives weren’t a thing, and users craved simplicity. Hardware limitations also stopped monsters from creating large, feature rich applications. 
 
-We found ourselves looking for an easy-to-understand and interpret measure of how a user was adopting Prefect. At the time, our goal was to identify those users that were worth talking to and those that still needed time to activate.
+Now, software tools fall into the platform trap. Uninhibited by the constraints of societal software adoption, the banes of hardware and driver hell and *oh no I unplugged the keyboard now my CD drive stopped spinning forever*….software developers are frequently building platforms. Are we bound to this future forever?
 
-# When activation matters
+## Early platforms
 
-Prefect is a [product-led company](https://openviewpartners.com/blog/what-is-product-led-growth/) with an [open source product](https://github.com/PrefectHQ/prefect), a free tier of our [commercial product](https://www.prefect.io/pricing/), and a large self-serve customer base. Many of our paying customers never talk to our sales team, and for good reason: we are a [tool built by developers for developers](https://xkcd.com/378/).
+For the purposes of this piece, I define a software platform as a tool or set of closely related & integrated tools from the same creator, with features and functionality intended for broad or different use cases. These began their reign of terror in the 90s and early 00s, and haven’t stopped since.
 
-This go-to-market (GTM) model means that we rely on product experience and documentation to activate users. We provide value before ever asking for a dollar. This inverts the typical (or legacy, depending on your perspective) SaaS GTM model where users never used a product before paying for it. 
+Even during these adolescent years of the software industry, the temptation of platforms lured the great business analysts of the period - those people setting business strategy for behemoths with resources to burn. Microsoft very famously had a tool for everything, [building a monopoly](https://www.justice.gov/atr/us-v-microsoft-courts-findings-fact) that [eventually dissolved](https://stratechery.com/2017/microsofts-monopoly-hangover/) with bundling tactics that were later found to be illegal. Not only was this just an anti-competitive behavior: Microsoft had dreams of stringing all of their products together to create a platform for everyone. This was exemplified by the mini-platform that they put together for word processing, spreadsheets and publishing: [Microsoft Works](https://en.wikipedia.org/wiki/Microsoft_Works).
 
-In a scenario where you’re a typical Enterprise SaaS company, you would naturally focus on demand generation, sales pipeline and your sales conversion rates. You would hire large demand generation and sales teams and you could live in [Salesforce](https://www.salesforce.com/).
+![Microsoft Works](/assets/img/works.png){:width="100%"}
 
-The concept of activation matters for Prefect because the product is the sales rep, and product usage is the pipeline.
+By this same definition, Google’s products are one of the largest software platforms in the world. Google arose in the new world of the post-dotcom boom and promptly started acquiring and integrating tools - AdSense, YouTube, etc. They’ve built and killed so many tools there’s a [whole website dedicated to it](https://killedbygoogle.com/). 
 
-# What are our metrics
+Over time the Google platform has led to a distracted, confusing set of loosely bundled tools with perhaps the broadest target user base in the world. Google’s goal is clear: to maximize advertising revenue by giving away some really useful tools (Maps), some formerly useful ones (GMail), and some really shitty ones (Wave? Buzz? Tango? Take your pick.).
 
-We have 3 activation metrics that represent 3 different abstractions of Prefect Cloud: `workspaces`, `users`, and `accounts`. 
+Even the earliest open source darlings built platforms: Mozilla took a turn towards platforms when they released Mozilla Application Suite before splitting into three distinct efforts (Firefox, Thunderbird and whatever the [rest of this list are](https://en.wikipedia.org/wiki/List_of_Mozilla_products)). It would be tempting to accuse Red Hat of the same behavior but it seems to me that Operating Systems should probably be a unique class of platform from this discussion.
 
-Our activation scores are simple weighted averages that yield a composite score between 0 and 100. Here is a snapshot of the `workspace` activation score:
+As SaaS software became a real & mature thing (following closely on the tails of early consumer-oriented SaaS software), a new class of platform emerged: B2B-focused platforms.
 
-![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="75%"}
+## The Mega Platform
 
-Each row can be assigned a score of 0 to 100, and each row has a weight. We assigned 50% of the overall score to usage and 50% to feature milestones. You’ll notice that the feature milestones align closely to the [Prefect Growth Framework](https://chrisreuter.me/2023-01-13-navigating-ambiguity/).
+From the consumer & prosumer focused productivity tools of the 90s and 00s came a new class of platform: the B2B focused software platform. Today there are B2B software platforms all over the world: Salesforce, HubSpot, Slack, Zendesk, Rippling, Oracle E-Business Suite, Zoho, IBM Cloud Pak For Data, etc. While many of these tools have widespread adoption, most of them are broadly loathed.
 
-# But Chris, this is so complicated
+Why do people hate using platforms?
 
-I will admit that this is a relatively complex activation metric. In fact, you will hear from many people that a simple activation milestone is simpler and clearer for teams to understand. 
+## How platforms come to be
 
-I would posit that this activation metric achieves its purpose: giving product advocates, salespeople, our support team and anyone else who cares a quick idea of how far along a user/workspace/account is. We are abstracting away complexity for a simple purpose - a fast, discrete assessment and an accurate aggregate measure of performance over time.
+> Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can. - [Zawinski’s Law](https://en.wikipedia.org/wiki/Jamie_Zawinski#Zawinski's_Law)
+> 
 
-The case can be made for both a simple and a complex activation metric. What is right for you will depend on a variety of things: point in time, goals, who you hire, and more.
-
-# How we made them
-
-### Cloud 1 & Pairwise Matrix
-
-Our first activation metric was based on a pairwise [correlation matrix](https://en.wikipedia.org/wiki/Correlation#Correlation_matrices). We had a large table of users, counts of events they had performed, and how much they had spent lifetime. It looked something like this:
-
-![Feature Table](/assets/img/activation-feature-table.png){:width="75%"}
-
- I wrote a simple Python script that calculated correlation between each feature, and laid the results out in what is called a pairwise matrix. I used `.corr()` and Seaborn’s `heatmap` to create the below matrix ([guide here](https://medium.com/@szabo.bibor/how-to-create-a-seaborn-correlation-heatmap-in-python-834c0686b88e)).
-
-![Correlation Matrix Heatmap](/assets/img/activation-heatmap.png){:width="75%"}
-
-We used this heatmap to identify where correlation between spend and 1st order events seemed high, and worked backwards from there to find 2nd order events/actions that were correlated with the 1st order events.
-
-We then applied a little bit of gut feel and assigned weights to each of these actions. This resulted in our first activation metric that looked like this:
-
-![The original activation score](/assets/img/cloud1-activation.png){:width="40%"}
-
-### Cloud 2 & the move to 3 scores
-
-When we released our next generation product, we introduced additional abstractions - `workspaces` and `accounts`.
-
-Inspired by our original activation metric, we composed 3 new activation metrics in a similar format to our Cloud 1 metric - with our new concepts (deployments, work queues, etc.). We didn’t have a great feature to optimize for (as we had with spend previously), but we liked the format of the metric and created something similar. Below is the `workspace` activation metric.
-
-![Prefect's Activation Score](/assets/img/workspace-activation.png){:width="75%"}
-
-# How we use them
-
-Thanks to the help of our data team, activation scores are calculated nightly using Prefect + [dbt](https://github.com/dbt-labs/dbt-core). We store all of this data in BigQuery for aggregate analysis and make it available at the individual level to a variety of other tools using Census.
-
-### Individual metrics
-
-- [customer.io](https://customer.io/)
-    - We use our activation score & its components to power our onboarding and engagement workflows in our marketing automation tool, customer.io.
-- [Orbit](https://orbit.love/)
-    - We have started pushing activation data to Orbit, our central clearinghouse for community data. This helps anyone working with community members to understand where they are with their Prefect Cloud journey.
-- Salesforce
-    - We augment leads and contacts with activation data to give account executives a snapshot of their prospects & customers. This helps our reps start with a better understanding of a user’s situation.
-
-### Aggregate
-
-We perform product experiments (often UI-based), like adding a mock code terminal to empty Prefect screens, in-product tours, or adding Prefect Collections into the UI. We track cohort activation scores relative to a start date and relate them to these experiments to determine what impact (if any) they had on user activation.
-
-# Some lessons learned
-
-Our activation metric and its subcomponents power many of our processes today:
-
-- Onboarding personalization
-- Snapshot of user success for our GTM teams
-- Measuring impact of growth experiments
-
-However, it was not an overnight success. We didn’t have a ton of people adopt the activation metric at first. They didn’t get what it was, and it wasn’t immediately useful to them. However, when they needed a quick way to understand a user’s progress, my team would ******always****** offer up the activation score and a definition of what it was.
+The platforms named above all offer a broad set of functionality. Salesforce built a CRM and then proceeded to turn it into a Frankenstein by way of acquisition. Advertising, data, productivity and analytics tools have been added and integrated to varying degrees with a whole smorgasbord of other acquired products. This has made for a messy, slow, miserable experience especially for the core legacy product. Instead of fixing the concept of a Person Account in Salesforce to account for the shift to PLG GTM models (a real improvement for their primary CRM users), they instead bought Mulesoft and Tableau. Now, their core business is under attack.
 
 {: .box-note}
-1️⃣ The lesson learned here: be persistent & make it useful. If it is helpful, it will be adopted. People won’t get it right away, and that’s OK. They will over time.
+📈 Acquiring new tech and shoving it into your product can result in a net negative experience for users
 
-One hidden benefit of creating an activation score on the complex side of the spectrum is that it forces you to effectively create and maintain many metrics. We ended up using the subcomponents of the user activation score in our email onboarding workflow.
 
-{: .box-note}
-2️⃣ Data related to activation can be operationally helpful, and not just an analytics experiment
-
-Finally, I've learned from our activation metric that our product is ever-changing. Our activation score is effectively a [slowly changing dimension](https://en.wikipedia.org/wiki/Slowly_changing_dimension), as the behavior of users changes with the dramatic changes to Prefect itself. Having introduced a score that was intended, in part, to help our sales team understand user behavior. Looking back, I wouldn’t be afraid to change the definition of our activation metric - the market is changing, our product is changing, and our user behavior is ever-changing.
+Many companies choose the route of building a platform without acquisitions. Many of the 2010s era tech companies are guilty of this. See Alteryx, Domino, Evernote, Cloudera and more. - they started losing at their core market and struggled to find a way to win at their core market. This led to companies like Alteryx [calling themselves the Data Science and Analytics Automation Platform](https://www.google.com/search?q=alteryx) (not joking). While Alteryx used to be a great data prep tool, it failed to makes strides with their core business and instead looked at the data science and analytics markets with large, jealous eyes to the detriment of their visual transformation product.
 
 {: .box-note}
-3️⃣ Your activation metric doesn’t have to be static - don’t be afraid to change it early and often.
+🎪 Building new features for new users and shoving them into your product can result in a net negative experience for all users
+
+
+![Microsoft Works](/assets/img/villain.png){:width="100%"}
+
+What do acquisition and feature building have in common? They’re the result of a tempting but lazy tradeoff. Instead of innovating in their core business, management teams instead look to new users. Tech companies over the long run overwhelmingly push to dip their fingers in other pies, because their pie isn’t getting bigger fast enough and they can’t take a bigger piece of the pie. They do this at the expense of innovating on their core product.
+
+## Are platforms inevitable?
+
+![Microsoft Works](/assets/img/thanos.png){:width="100%"}
+
+Given the incentive structure of public and venture-funded companies, they might be. The path to platform is easy to see:
+
+- Decision makers identify new users/markets/whatever to target
+- Acquisitions happen or new features/new products are added to the roadmap
+- Chaos and lack of focus ensues
+- ???
+- Profit I guess?
+
+Maybe the real problem is that innovation and creativity is hard, and value capture is easier when you can create average features for a totally new market. Perhaps there is an incentive structure for individual tools to stay focused - and that answer might be open source - but until that incentive structure is clearer, I worry that even the most niche of niche tool will either turn into a monstrosity or be incorporated into one.
+
+1: IBM was a great company to work for - but sometimes good comes with bad, especially at that scale.
 
 ### I’m here to chat
 
