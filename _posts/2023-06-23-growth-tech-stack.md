@@ -4,7 +4,7 @@ title: Building a Growth Tech Stack
 subtitle: Prefect's technology stack that powers the Growth team
 description: What are the most important tools to have, for a healthy Growth function?
 tags: [software, platform, SaaS, growth, technology]
-thumbnail-img: /assets/img/tech-stack-splash.jpg
+thumbnail-img: /assets/img/growth-tech-stack.png
 share-img: /assets/img/tech-stack-splash.jpg
 comments: false
 ---
