@@ -58,6 +58,8 @@ The secondary hero of our stack is [customer.io](http://customer.io). This is a 
 
 Examples of our campaigns include onboarding activation, re-engagement, “you didn’t complete this…”, “free trial started”, and more.
 
+![Prefect's Growth Tech Stack](/assets/img/onboarding-workflow.png)
+
 I believe that [customer.io](http://customer.io) is aimed at B2C situations, and possibly with a focus on mobile apps, but we’ve adapted it to fit our needs quite easily. This might be because PLG really means B2C2B, but that’s a song for another time.
 
 [Customer.io](http://Customer.io) also features a simple data model (one huge table, a row is a person and an attribute is a column) with support for events and now custom objects (although we don’t use these). Segments are easy to build and stay updated based on you updating your data.
