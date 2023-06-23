@@ -50,7 +50,7 @@ The hero of our stack is a consolidated and augmented view of our users. We cons
 
 One great example of a specific, targeted action only enabled by a large, clean, consolidated dataset is our onboarding activation campaign. Email campaigns may seem easy at first, but presenting the user with a customized experience unique to their situation that also feels like it is from a human is tricky.
 
-I’m lucky enough to work with brilliant individuals like our Growth Lead Sarah Krasnik [(read her writing here](https://substack.com/@sarahkrasnik), who has helped us to establish an onboarding flow that is best-in-class with dozens of possible permutations.
+I’m lucky enough to work with brilliant individuals like our Growth Lead Sarah Krasnik [(read her writing here)](https://substack.com/@sarahkrasnik), who has helped us to establish an onboarding flow that is best-in-class with dozens of possible permutations.
 
 ### [customer.io](https://customer.io/)
 
