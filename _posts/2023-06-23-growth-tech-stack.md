@@ -27,7 +27,7 @@ The Growth team at Prefect is a full-funnel team that is structured similarly to
 ## The Stack
 
 ![Prefect's Growth Tech Stack](/assets/img/growth-tech-stack.png)
-    
+Growth owns the red boxes, green gradient is just for fun.
 
 While we benefit from a variety of tools, the Growth team are the primary owners of just 3 tools and 1 core dataset. While every company will differ, each tool category is probably a must in order to support a healthy, data-driven Growth function.
 
