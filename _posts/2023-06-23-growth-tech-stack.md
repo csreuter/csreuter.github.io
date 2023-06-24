@@ -8,7 +8,7 @@ thumbnail-img: /assets/img/growth-tech-stack.png
 share-img: /assets/img/tech-stack-splash.jpg
 comments: false
 ---
-Tools aimed at PLG companies are really hot right now - super hot! I thought it would be helpful to see the tools that the Prefect Growth team uses, and those tools that we are the primary owners (and primary value extractors) of.
+Tools aimed at PLG companies are [really](https://www.getcorrelated.com/) [hot](https://www.pocus.com/) [right](https://www.paceapp.com/) [now](https://www.calixa.io/) - [superhot](https://superhotgame.com/)! I thought it would be helpful to see the tools that the Prefect Growth team uses, and those tools that we are the primary owners (and primary value extractors) of.
 
 ## What we do
 
