@@ -8,24 +8,24 @@ thumbnail-img: /assets/img/preview-card-future-data-eng.png
 share-img: /assets/img/preview-card-future-data-eng.png
 comments: false
 ---
-## What’s a data engineer?
+## Moving the data and doing the thing
 
-The mode data engineer is applying software engineering practices to data - moving and modeling data in a production capacity. This involves stitching together many systems, writing code, working with distributed infrastructure depending on scale, and making it repeatable and resilient.
+A common (or even a royal) data engineer is someone applying software engineering practices to data - moving and modeling data in a production capacity. This involves stitching together many systems, writing code, working with distributed infrastructure depending on scale, and making it repeatable and resilient.
 
-They’re typically at companies with complex ecosystems, significant quantities of data, and high demand for using that date for both operational and for analytical purposes.
+They’re typically at companies with complex ecosystems, significant quantities of data, and high demand for using that date for both operational and for analytical purposes. At least, that's the traditional definition...
 
 ## The shift to the warehouse
 
 {: .box-note}
 For the purposes of this piece, we’ll use Snowflake to represent the cloud data warehouse offerings. They seem to have the clearest strategy & the most success when it comes to moving workload into the warehouse.
 
-###Warehouse-native data engineering
+### Warehouse-native data engineering
 
 A modern data engineering pattern has evolved for net new workloads, driven by new companies and new tools. While it hasn’t taken hold in as many enterprises, the Fivetran/dbt/Snowflake pattern reigns supreme as the simplest way to get data into a warehouse and then mold it to your liking for the purpose of analytics.
 
 This has been encouraged (obviously) by Snowflake. Fivetran and dbt were the [2022](https://www.fivetran.com/press/fivetran-named-snowflake-data-integration-partner-of-the-year-adds-new-product-capabilities-extends-enterprise-customer-growth) and [2023](https://www.prnewswire.com/news-releases/dbt-labs-named-snowflake-data-integration-partner-of-the-year-301864344.html) data integration partners of the year for Snowflake respectively, and for good reason: it’s all happening in the warehouse. These tools simplify transformation, and extends access to it, at the expense of Snowflake credits and scaling limitations.
 
-###Traditional data engineering
+### Traditional data engineering
 
 There’s great opportunity for Snowflake in traditional data engineering, as it can drive huge consumption. Traditional data engineering workloads are compute intensive, judging by the kind of technologies that data engineers with big data typically use: Dask, Ray, Spark, Hive, Flink, Cassandra, and others. They feature heavy transformations and operational data movement, and are a major growth opportunity for Snowflake now that the analytical workloads are well-in-hand.
 
