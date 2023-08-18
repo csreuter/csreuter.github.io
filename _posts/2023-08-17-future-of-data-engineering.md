@@ -12,24 +12,24 @@ comments: false
 
 A common (or even a royal) data engineer is someone applying software engineering practices to data - storing, moving and modeling data in a production capacity. Historically this has involved stitching together many systems, writing code, working with distributed infrastructure depending on scale, and making it repeatable and resilient.
 
-They’re typically at companies that either have significant quantities of data or high demand for using that data for both operational and analytics purposes
+They typically work at companies that either have significant quantities of data or high demand for using that data for both operational and analytics purposes
 
 ## The shift to the warehouse
 
 {: .box-note}
-For the purposes of this piece, we’ll use Snowflake to represent the cloud data warehouse offerings. They seem to have the clearest strategy & the most success when it comes to moving workload into the warehouse.
+For the purposes of this piece, we’ll use Snowflake to represent the cloud data warehouse offerings. They seem to have the clearest strategy & the most success when it comes to moving workloads into the warehouse.
 
 ### **Warehouse-native data engineering**
 
-A modern data engineering pattern has evolved for workloads that are analytical in nature, driven by new companies, a a scarcity of data engineering skills, and access to new tools. While there exist many enterprises that still run their data engineering practices out of Hadoop and Spark, the [Fivetran](https://www.fivetran.com/)/[dbt](https://www.getdbt.com/)/[Snowflake](https://www.snowflake.com/en/) pattern reigns supreme as the most popular way to get data into a new warehouse and then mold it with SQL to your liking for the purpose of analytics.
+A modern data engineering pattern has evolved for workloads that are analytical in nature, driven by new companies, a scarcity of data engineering skills, and access to new tools. While there exist many enterprises that still run their data engineering practices out of Hadoop and Spark, the ELT pattern supposed by [Fivetran](https://www.fivetran.com/)/[dbt](https://www.getdbt.com/)/[Snowflake](https://www.snowflake.com/en/) reigns supreme as the most popular way to get data into a new warehouse and then mold it with SQL to your liking for the purpose of analytics.
 
-This has been encouraged (obviously) by Snowflake. Fivetran and dbt were the [2022](https://www.fivetran.com/press/fivetran-named-snowflake-data-integration-partner-of-the-year-adds-new-product-capabilities-extends-enterprise-customer-growth) and [2023](https://www.prnewswire.com/news-releases/dbt-labs-named-snowflake-data-integration-partner-of-the-year-301864344.html) data integration partners of the year for Snowflake respectively, and for good reason: there’s a ton of transformation now happening in the warehouse. This modern stack simplifies transformation in the warehouse, and extend access to that transformation to a less technical user, at the expense of Snowflake credits and scaling limitations. 
+This has been encouraged (obviously) by Snowflake. Fivetran and dbt were the [2022](https://www.fivetran.com/press/fivetran-named-snowflake-data-integration-partner-of-the-year-adds-new-product-capabilities-extends-enterprise-customer-growth) and [2023](https://www.prnewswire.com/news-releases/dbt-labs-named-snowflake-data-integration-partner-of-the-year-301864344.html) data integration partners of the year for Snowflake respectively, and for good reason: there’s a ton of transformation now happening in the warehouse. This modern stack simplifies transformation in the warehouse, and extends access to that transformation to a less technical user, at the expense of Snowflake credits and scaling limitations. 
 
 ![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg){:width="75%"}
 
 ### **Traditional data engineering**
 
-There exist workloads beyond in-warehouse transformations, that I would call “traditional data engineering”. These workloads involve use cases beyond the SQL transformation that are most often the best fit for a warehouse. 
+There exist workloads beyond in-warehouse transformations, that I would call “traditional data engineering”. These workloads involve use cases beyond the SQL transformation, which is most often the best fit for a warehouse. 
 
 These are compute intensive, judging by the kind of technologies that data engineers with big data typically use: [Spark](https://spark.apache.org/), [Hive](https://hive.apache.org/), [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), [Flink](https://flink.apache.org/), [Kafka](https://kafka.apache.org/), [Dask](https://www.dask.org/), [Ray](https://www.ray.io/), [Presto](http://prestodb.github.io/), [Iceberg](https://iceberg.apache.org/), [Cassandra](https://cassandra.apache.org/_/index.html), and others. They feature heavy transformations written in code, operational workflows, and reactive data movement such as events or streaming. In short: they’re heavy, they are complex, and they are a major growth opportunity for Snowflake now that the analytical workloads are well-in-hand.
 
@@ -37,7 +37,7 @@ There’s great opportunity for Snowflake in traditional data engineering, as it
 
 With Snowpark, now you can run your custom code in the warehouse - don’t land your data elsewhere, just put it all in Snowflake! If you bring your transformations to Snowflake, will they be cheaper than wherever you are running them now? 🤷🏼 Maybe, and this appears to be the story that Snowflake is telling, particularly with Databricks in mind.
 
-There is some reported adoption of Snowpark, but anecdotally, not that many people that I know are using it. Using Snowpark requires that the data exists in the warehouse, which is less likely to happen the more complex the workload (does it use many tool, stitch together multiple data sources, etc.). This aligns with Snowflake’s previous strategy of bringing as much consumption as possible into the walled garden.
+There is some reported adoption of Snowpark, but anecdotally, not that many people that I know are using it. Using Snowpark requires that the data exists in the warehouse, which is less likely to happen the more complex the workload (does it use many tools, stitch together multiple data sources, etc.). This aligns with Snowflake’s previous strategy of bringing as much consumption as possible into the walled garden.
 
 ## The future of data engineering
 
@@ -45,7 +45,7 @@ Imagine some spectrum of data engineering workloads, split between those solely 
 
 ![Current Data Engineering Spectrum](/assets/img/data-eng-spectrum-current.png)
 
-Today the basic, new workloads are mostly being built with the modern data engineering pattern. Think of new companies setting up a warehouse, BI and analytics for small teams, analytics engineers, etc. Eventually, some of those workloads become more complex - meaning they data sources, SLAs, or requirements that mean the warehouse along is not enough. Today, complex workloads are happening mostly outside of the warehouse, with the warehouse as primarily a destination for any transformed analytical data. 
+Today the basic, "modern" workloads are mostly being built with the modern data engineering pattern. Think of new companies setting up a warehouse, BI and analytics for small teams, analytics engineers, etc. Eventually, some of those workloads become more complex - meaning they data sources, SLAs, or requirements that mean the warehouse alone is not enough. Today, complex workloads are happening mostly outside of the warehouse, with the warehouse as primarily a destination for any transformed analytical data. 
 
 Over time, these workloads will both shift left. Snowflake will consume even more new workloads, and traditional workloads will start to incorporate warehouses to a greater degree (more than just a source, or for a small number of transformations). Something like this:
 
@@ -78,10 +78,11 @@ Data warehouses make analytics easier. Imagine if they made data engineering eas
 
 ### The vendors
 
-Snowflake has enjoyed remarkable growth over the past 10 years, culminating in their IPO last year. A continued growth story depends on pulling more traditional data engineering, into the warehouse. [BigQuery](https://cloud.google.com/bigquery), [Redshift](https://aws.amazon.com/redshift/), and [Databricks](https://www.databricks.com/) (in the opposite sense) rely on similar capabilities.
+Snowflake has enjoyed remarkable growth over the past 10 years, culminating in their IPO last year. A continued growth story depends on pulling more traditional data engineering into the warehouse. [BigQuery](https://cloud.google.com/bigquery), [Redshift](https://aws.amazon.com/redshift/), and [Databricks](https://www.databricks.com/) (in the opposite sense) rely on similar capabilities.
 
 What will happen? Let’s all pay attention, as the future unfolds in front of us.
 
+Many thanks to the people that reviewed and provided suggestions for this post, including [Sarah Bedell](https://twitter.com/sarahmk125) and [Bill Palombi](http://palom.bi/).
 
 {: .box-note}
 A new feature hails below!
