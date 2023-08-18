@@ -30,7 +30,7 @@ In an expression:
 {: .box-note}
 workloads with basic requirements + new tools + scarcity of data engineering resources = transformation in the warehouse
 
-![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg)
+![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg){:width="50%"}
 
 ### **Traditional data engineering**
 
