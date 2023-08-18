@@ -91,4 +91,5 @@ A new feature hails below!
 
 {: .box-note}
 **What was I listening to when writing this?**
-[Dire Straits - Once Upon A Time In The West - Live At Hammersmith Odeon](https://open.spotify.com/track/4dqwmCPyhseZe5j3bgqfws?si=ae83bac14e3245c0)
+<br>
+[Dire Straits - Once Upon A Time In The West - Live At Hammersmith Odeon](https://www.youtube.com/watch?v=LG9RQS76zGc)
