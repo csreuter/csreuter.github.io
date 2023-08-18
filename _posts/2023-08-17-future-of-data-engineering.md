@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The Future of Data Engineering
-subtitle: New workloads are commodities, complex data engineering is...complex?
+title: The Future of Data Engineering in the Warehouse
+subtitle: New workloads are commodities, traditional data engineering is...complex?
 description: Where data engineering workloads will live in the future.
 tags: [data warehouse, Snowflake, data engineering]
 thumbnail-img: /assets/img/data-eng-future-social-preview.jpg
