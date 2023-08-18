@@ -25,12 +25,7 @@ A modern data engineering pattern has evolved for workloads that are analytical 
 
 This has been encouraged (obviously) by Snowflake. Fivetran and dbt were the [2022](https://www.fivetran.com/press/fivetran-named-snowflake-data-integration-partner-of-the-year-adds-new-product-capabilities-extends-enterprise-customer-growth) and [2023](https://www.prnewswire.com/news-releases/dbt-labs-named-snowflake-data-integration-partner-of-the-year-301864344.html) data integration partners of the year for Snowflake respectively, and for good reason: there’s a ton of transformation now happening in the warehouse. This modern stack simplifies transformation in the warehouse, and extend access to that transformation to a less technical user, at the expense of Snowflake credits and scaling limitations. 
 
-In an expression:
-
-{: .box-note}
-workloads with basic requirements + new tools + scarcity of data engineering resources = transformation in the warehouse
-
-![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg){:width="50%"}
+![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg){:width="75%"}
 
 ### **Traditional data engineering**
 
