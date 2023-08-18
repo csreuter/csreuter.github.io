@@ -30,6 +30,8 @@ In an expression:
 {: .box-note}
 workloads with basic requirements + new tools + scarcity of data engineering resources = transformation in the warehouse
 
+![Spongebob Data Engineering meme](/assets/img/data-eng-future-social-preview.jpg)
+
 ### **Traditional data engineering**
 
 There exist workloads beyond in-warehouse transformations, that I would call “traditional data engineering”. These workloads involve use cases beyond the SQL transformation that are most often the best fit for a warehouse. 
