@@ -5,7 +5,7 @@ subtitle: New workloads are commodities, traditional data engineering is...compl
 description: Where data engineering workloads will live in the future.
 tags: [data warehouse, Snowflake, data engineering]
 thumbnail-img: /assets/img/data-eng-future-social-preview.jpg
-share-img: /assets/img/data-eng-future-social-preview.jpg
+share-img: /assets/img/data-eng-future-social-preview-twitter-size.jpg
 comments: false
 ---
 ## What’s in a data engineer?
