@@ -10,7 +10,7 @@ comments: false
 ---
 ## What’s in a data engineer?
 
-A common (or even a royal) data engineer is someone applying software engineering practices to data - storing, moving and modeling data in a production capacity. Historically this has involved stitching together many systems, writing code, working with distributed infrastructure depending on scale, and making it repeatable and resilient.
+A data engineer is someone applying software engineering practices to data - storing, moving and modeling data in a production capacity. Historically this has involved stitching together many systems, writing code, working with distributed infrastructure depending on scale, and making it repeatable and resilient.
 
 They typically work at companies that either have significant quantities of data or high demand for using that data for both operational and analytics purposes
 
@@ -45,9 +45,9 @@ Imagine some spectrum of data engineering workloads, split between those solely 
 
 ![Current Data Engineering Spectrum](/assets/img/data-eng-spectrum-current.png)
 
-Today the basic, "modern" workloads are mostly being built with the modern data engineering pattern. Think of new companies setting up a warehouse, BI and analytics for small teams, analytics engineers, etc. Eventually, some of those workloads become more complex - meaning they data sources, SLAs, or requirements that mean the warehouse alone is not enough. Today, complex workloads are happening mostly outside of the warehouse, with the warehouse as primarily a destination for any transformed analytical data. 
+Today the basic, "modern" workloads are mostly being built with the "modern" data engineering pattern referenced above. Think of new companies setting up a warehouse, BI and analytics for small teams, analytics engineers, etc. Eventually, some of those workloads shift into the territory of traditional dara engineering - meaning they add complexity in the form of data sources, SLAs, or requirements that mean the warehouse alone is not enough.
 
-Over time, these workloads will both shift left. Snowflake will consume even more new workloads, and traditional workloads will start to incorporate warehouses to a greater degree (more than just a source, or for a small number of transformations). Something like this:
+Over time, these workloads will both shift left. It is bound to happen given the tools they've built under the Snowpark umbrella and the natural movement of more workloads from on-premise to the cloud. Snowflake will consume even more new workloads with Snowpark, and traditional workloads will continue their move to the cloud as they start to incorporate warehouses to a greater degree (more than just as a source/destination, or for a small number of transformations). Something like this:
 
 ![Future Data Engineering Spectrumd](/assets/img/data-eng-spectrum-future.png)
 
@@ -70,7 +70,7 @@ Ultimately, this comes down to a bet by Snowflake.
     1. Focusing on data engineering within the Snowflake platform (their same old playbook), at the expense of hybrid workloads
     2. Encouraging hybrid data engineering at the expense of maximizing data engineering on the Snowflake platform, in order to capture & monetize the associated analytical workloads
 
-The future of data engineering in the warehouse is a bit of a clickbait title, I admit that. It really matters a lot, to a lot of people. 
+The future of data engineering in the warehouse is a bit of a clickbait title, I admit that. It really matters a lot, to two primary groups:
 
 ### The user
 
@@ -80,7 +80,11 @@ Data warehouses make analytics easier. Imagine if they made data engineering eas
 
 Snowflake has enjoyed remarkable growth over the past 10 years, culminating in their IPO last year. A continued growth story depends on pulling more traditional data engineering into the warehouse. [BigQuery](https://cloud.google.com/bigquery), [Redshift](https://aws.amazon.com/redshift/), and [Databricks](https://www.databricks.com/) (in the opposite sense) rely on similar capabilities.
 
-What will happen? Let’s all pay attention, as the future unfolds in front of us.
+### What will happen?
+
+If the cloud warehousing vendors bet too big on data engineering in the warehouse, thinking they are going to capture as much workload as possible that way, they are likely to do so at the expense of hybrid workloads that are mixed between warehouse and elsewhere. Snowflake and other vendors are in danger of becoming a panacea if they optimize for in-warehouse only - a distracted panacea of a software company, is one that is in danger of being disrupted in the area where it really matters. In this case, my prediction is that the area that really matters, is stitching data engineering together between commoditized (in-warehouse) and custom workloads (elsewhere).
+
+Let’s all pay attention, as the future unfolds in front of us. It is going to be great.
 
 Many thanks to the people that reviewed and provided suggestions for this post, including [Sarah Bedell](https://twitter.com/sarahmk125) and [Bill Palombi](http://palom.bi/).
 
