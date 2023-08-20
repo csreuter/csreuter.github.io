@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Future of Data Engineering in the Warehouse
-subtitle: The fight for the future.
+subtitle: Can cloud data warehouses be a panacea?
 description: A discussion about where data engineering workloads will live in the future.
 tags: [data warehouse, Snowflake, data engineering]
 thumbnail-img: /assets/img/data-eng-future-social-preview.jpg
