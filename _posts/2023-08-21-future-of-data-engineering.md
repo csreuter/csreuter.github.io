@@ -86,7 +86,7 @@ If the cloud warehousing vendors continue to make big bets on data engineering, 
 
 To be clear, I hope that is not the case. Instead, I hope that the warehouse vendors build modular data engineering that can fit elegantly as a cog in a machine, instead of acting as an opaque machine. There is a world where this is possible, and I hope that we're living in that [timeline](https://www.quora.com/What-is-the-difference-between-a-Multiverse-and-Alternate-Timeline). Let’s all pay attention, as the future unfolds in front of us. It is going to be great.
 
-Many thanks to the people that reviewed and provided suggestions for this post, including [Sarah Bedell](https://twitter.com/sarahmk125) and [Bill Palombi](http://palom.bi/).
+Many thanks to the people that reviewed and provided suggestions for this post, including [Sarah Bedell](https://twitter.com/sarahmk125), [Chris White](https://twitter.com/markov_gainz), and [Bill Palombi](http://palom.bi/).
 
 {: .box-note}
 A new feature hails below!
