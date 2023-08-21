@@ -82,7 +82,7 @@ Snowflake has enjoyed remarkable growth over the past 10 years, culminating in t
 
 ### What will happen?
 
-If the cloud warehousing vendors bet too big on data engineering in the warehouse, thinking they are going to capture as much workload as possible that way, they are likely to do so at the expense of hybrid workloads that are mixed between warehouse and elsewhere. Snowflake and other vendors are in danger of becoming a panacea if they optimize for in-warehouse only - a distracted panacea of a software company, is one that is in danger of being disrupted in the area where it really matters. In this case, my prediction is that the area that really matters, is stitching data engineering together between commoditized (in-warehouse) and custom workloads (elsewhere).
+If the cloud warehousing vendors bet too big on data engineering solely in the warehouse, operating based on their familiar goals ("get it in the warehouse!") and thinking they are going to capture as much workload as possible that way, they are likely to do so at the expense of hybrid workloads that are mixed between warehouse and elsewhere. Snowflake and other vendors are in danger of becoming a panacea if they optimize for an in-warehouse singularity - a distracted panacea of a software company is one that is in danger of being disrupted. 
 
 Let’s all pay attention, as the future unfolds in front of us. It is going to be great.
 
