@@ -82,9 +82,9 @@ Snowflake has enjoyed remarkable growth over the past 10 years, culminating in t
 
 ### What will happen?
 
-If the cloud warehousing vendors bet too big on data engineering solely in the warehouse, operating based on their familiar goals ("get it in the warehouse!") and thinking they are going to capture as much workload as possible that way, they are likely to do so at the expense of hybrid workloads that are mixed between warehouse and elsewhere. Snowflake and other vendors are in danger of becoming a panacea if they optimize for an in-warehouse singularity - a distracted panacea of a software company is one that is in danger of being disrupted. 
+If the cloud warehousing vendors continue to make big bets on data engineering, operating based on their familiar goals ("get it in the warehouse!"), they are likely to do so by optimizing for workflows that happen totally in the warehouse at the expense of hybrid workloads that are mixed between the warehouse and elsewhere. Snowflake and other vendors are arleady in danger of becoming a panacea by making a push for data engineering. If they optimize for an in-warehouse singularity - they are almost certain to disrupt themselves by rolling out a substand product in the context of data engineering, while losing focus on their core business of warehousing for analytics.
 
-Let’s all pay attention, as the future unfolds in front of us. It is going to be great.
+To be clear, I hope that is not the case. Instead, I hope that the warehouse vendors build modular data engineering that can fit elegantly as a cog in a machine, instead of acting as an opaque machine. There is a world where this is possible, and I hope that we're living in that [timeline](https://www.quora.com/What-is-the-difference-between-a-Multiverse-and-Alternate-Timeline). Let’s all pay attention, as the future unfolds in front of us. It is going to be great.
 
 Many thanks to the people that reviewed and provided suggestions for this post, including [Sarah Bedell](https://twitter.com/sarahmk125) and [Bill Palombi](http://palom.bi/).
 
