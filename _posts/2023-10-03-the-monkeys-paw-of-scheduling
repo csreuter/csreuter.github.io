@@ -4,13 +4,13 @@ title: The Monkey's Paw of Scheduling
 subtitle: Why is it so hard to automate your work?
 description: What's the deal with scheduling code?
 tags: [python, orchestration, automation, scheduling]
-thumbnail-img: /assets/img/data-eng-future-social-preview.jpg
-share-img: /assets/img/data-eng-future-social-preview-twitter-size.jpg
+thumbnail-img: /assets/img/bart-paw.png
+share-img: /assets/img/bart-paw.png
 comments: false
 ---
 In the short story [The Monkey’s Paw](https://en.wikipedia.org/wiki/The_Monkey%27s_Paw), a couple come into possession of a preserved monkey’s paw with magical powers. After the couple makes a wish, the wish comes true - but with terrible consequences. The phrase “the monkey’s paw curls” has entered popular culture, notably driven by an appearance in a [Simpson’s Tree House of Horrors episode](https://simpsons.fandom.com/wiki/Monkey%27s_Paw). The phrase has taken on the meaning of having a wish come true, with unforeseen negative consequences.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0e13c6a5-488b-465f-8706-5d28cb77db16/0dbe5361-f835-46b4-ad98-f4e5395b130f/Untitled.png)
+![Bart Simpson and the Monkey's Paw](/assets/img/bart-paw.png)
 
 Somebody used this phrase to me in reference to workflow orchestration the other day, and that really resonated with me, so I thought I’d explore it.
 
@@ -24,7 +24,7 @@ The audience of python-literate people who want to automate their work is also l
 
 ## Everybody wants to set it and forget it
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0e13c6a5-488b-465f-8706-5d28cb77db16/13e17872-d35e-4d06-a760-bec8d0a53ddd/Untitled.png)
+![Set it and forget it!](/assets/img/ronco.png)
 
 The allure of automation is strong. I ******really****** wanted my gambling project to succeed - it would be free money! I also barely cared about it, but I was determined to automate it fully. I turned to cron, but AWS was nascent and my spare desktop computer had recently died in a freak drink spilling accident. Unfortunately, I gave up and the world will never know of the free money loop.
 
