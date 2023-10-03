@@ -8,7 +8,9 @@ thumbnail-img: /assets/img/bart-paw.png
 share-img: /assets/img/bart-paw.png
 comments: false
 ---
-In the short story [The Monkey’s Paw](https://en.wikipedia.org/wiki/The_Monkey%27s_Paw), a couple come into possession of a preserved monkey’s paw with magical powers. After the couple makes a wish, the wish comes true - but with terrible consequences. The phrase “the monkey’s paw curls” has entered popular culture, notably driven by an appearance in a [Simpson’s Tree House of Horrors episode](https://simpsons.fandom.com/wiki/Monkey%27s_Paw). The phrase has taken on the meaning of having a wish come true, with unforeseen negative consequences.
+In the short story [The Monkey’s Paw](https://en.wikipedia.org/wiki/The_Monkey%27s_Paw), a couple come into possession of a preserved monkey’s paw with magical powers. 
+
+After the couple makes a wish, the wish comes true - but with terrible consequences. The phrase “the monkey’s paw curls” has entered popular culture, notably driven by an appearance in a [Simpson’s Tree House of Horrors episode](https://simpsons.fandom.com/wiki/Monkey%27s_Paw). The phrase has taken on the meaning of having a wish come true, with unforeseen negative consequences.
 
 ![Bart Simpson and the Monkey's Paw](/assets/img/bart-paw.png)
 
