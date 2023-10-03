@@ -35,7 +35,6 @@ All of the little python engineers out there (or even the advanced ones) want to
 ## Be careful what you wish for
 
 > There is no such thing as a free lunch.
-
 -Pankaj Agrrawal, my professor from 2007 in my Finance 350 course at the University of Maine
 
 Every user that tries to schedule something, soon learns that scheduling was just the beginning of their woes. 
