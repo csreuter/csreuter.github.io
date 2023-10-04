@@ -20,7 +20,7 @@ Somebody used this phrase to me in reference to workflow orchestration the other
 
 Python is ridiculously ubiquitous at this point - the [number one programming language](https://www.tiobe.com/tiobe-index/) globally as of the writing of this piece. Maybe I’m biased (I do work in the PyData ecosystem), but it seems like everybody and their cousin are writing scripts these days.
 
-I started writing python initially in 2011, when I was scraping gambling odds from sportsbooks in order to find arbitrage (1). I used Windows Task Scheduler to schedule that scraping. It was running on my laptop, and it broke all the time. I was being rate limited, APIs were poorly documented and changing constantly, my laptop was off, etc.
+I started writing python initially in 2011, when I was scraping gambling odds from sportsbooks in order to find arbitrage[^1]. I used Windows Task Scheduler to schedule that scraping. It was running on my laptop, and it broke all the time. I was being rate limited, APIs were poorly documented and changing constantly, my laptop was off, etc.
 
 The audience of python-literate people who want to automate their work is also large. There are an infinite number of python scripts holding together personal projects, small companies, and enterprises. 
 
@@ -28,9 +28,9 @@ The audience of python-literate people who want to automate their work is also l
 
 ![Set it and forget it!](/assets/img/ronco.png)
 
-The allure of automation is strong. I ******really****** wanted my gambling project to succeed - it would be free money! I also barely cared about it, but I was determined to automate it fully. I turned to cron, but AWS was nascent and my spare desktop computer had recently died in a freak drink spilling accident. Unfortunately, I gave up and the world will never know of the free money loop.
+The allure of automation is strong. I **really** wanted my gambling project to succeed - it would be free money! I also barely cared about it, but I was determined to automate it fully. I turned to cron, but AWS was nascent and my spare desktop computer had recently died in a freak drink spilling accident. Unfortunately, I gave up and the world will never know of the free money loop.
 
-All of the little python engineers out there (or even the advanced ones) want to take the process that they’ve abstracted into code, and put that code on a schedule so they **********************************never have to think about it again**********************************. They soon come to learn that scheduling is the monkey’s paw.
+All of the little python engineers out there (or even the advanced ones) want to take the process that they’ve abstracted into code, and put that code on a schedule so they **never have to think about it again**. They soon come to learn that scheduling is the monkey’s paw.
 
 ## Be careful what you wish for
 
@@ -63,7 +63,7 @@ The monkey’s paw of scheduling wasn’t obvious to me, even after I encountere
 
 That’s just what they are, though: unavoidable. Scheduling is a hard problem because of everything else that it takes to make something run, not because of the schedule itself. The question you should be asking is not, “can I schedule this?”. Instead, the question should be, “do I have what it takes to make this thing bulletproof and visible?”.
 
-1: Sidenote: arbitrage was out there, but I assessed transaction risk to be too high
+[^1]: Sidenote: arbitrage was out there, but I assessed transaction risk to be too high
 
 {: .box-note}
 **What was I listening to when writing this?**
