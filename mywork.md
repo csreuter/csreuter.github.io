@@ -14,6 +14,8 @@ In 2020-2021 I created a series of videos for Tellius:
 - [Tellius + Snowflake](https://www.youtube.com/watch?v=5PUpGzu-Has)
 - [Customer Churn](https://www.youtube.com/watch?v=d7neKxRMSBM)
 
+I also hosted [PrefectLive](https://www.youtube.com/playlist?list=PLZfWmQS5hVzH_jd7ovYo0hGaG4gX0Wzws), a weekly livestream series in 2022 with Prefect.
+
 # Work Projects
 - I led the redesign and rebuild of the [Prefect website](https://www.prefect.io) in mid-2023, deploy all new messaging & positioning
 - [datastack.design](https://datastack.design/er) was a fun viral project we built
