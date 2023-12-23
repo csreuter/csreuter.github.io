@@ -6,7 +6,7 @@ description: Check out some of the projects or content I have created or worked 
 ---
 
 # Pricing-related
--![Usage-based pricing isn't always best](https://chrisreuter.me/2023-02-16-usage-pricing/)
+-[Usage-based pricing isn't always best](https://chrisreuter.me/2023-02-16-usage-pricing/)
 
 # Videos
 In 2020-2021 I created a series of videos for Tellius:
