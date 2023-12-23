@@ -9,7 +9,7 @@ description: Chris Reuter is a human.
 
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
 
-I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
+I’m currently Director of Product Marketing at [Prefect](https://www.prefect.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
 
 - Currently residing in <s>Maine</s> <s>Boston</s> <s>Connecticut</s> <s>Maine</s> <s>DC</s> Virginia
 - I grew up in Maine, which influences quite a bit of my life today
@@ -17,15 +17,15 @@ I’m currently the Head of Growth at [Prefect](https://www.prefect.io). I like 
 
 **Prefect 2021-Present**
 
-I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy. I'm responsible for our self-serve motion, where my team collaborates with other parts of the company on things like pricing, growth marketing and growth engineering.
+I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy. I started with a focus on growth marketing and demand generation, and am now responsible for product marketing including positioning, messaging, and ICPs. I work closely with our sales and product teams.
 
 **Tellius 2020-2021**
 
-I joined Tellius in early 2020 and was there for 18 months. I learned about GTM models, selling and pivoting from sales-led to product-led.
+I joined Tellius in early 2020 and was there for 18 months. I learned about GTM models, selling and sales process, and pivoting from sales-led to product-led.
 
 **IBM 2012-2020**
 
-I worked at IBM from 2012 until the end of 2019. I was involved in corporate finance, budgeting & planning for 2 years. I then transitioned into pricing roles, both strategic (for the Netezza acquisition) and transactional (ELA pricing). I then moved into sales management roles.
+I worked at IBM from 2012 until the end of 2019. I was involved in corporate finance, budgeting & planning for 2 years. I then transitioned into pricing roles, both strategic (for the Netezza acquisition) and transactional (ELA pricing). I then moved into GTM and sales roles.
 
 **Northeastern MBA, 2012: Finance**
 
