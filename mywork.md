@@ -15,7 +15,7 @@ description: Check out some of the projects or content I have created or worked 
 # Writing
 - My [personal blog](https://chrisreuter.me), where recently I write about things like [usage-based pricing](https://chrisreuter.me/2023-02-16-usage-pricing/)
 - My [Medium](https://medium.com/@csreuter), where I previously wrote for Tellius. For example, [The amazing technology behind Tellius elasticity](https://medium.com/@csreuter/the-amazing-technology-behind-tellius-elasticity-839c896ddc60) or [Building & tuning ML models in Tellius](https://medium.com/@csreuter/building-and-tuning-ml-models-in-tellius-d969148de113)
-- Some examples from prefect.io, including [landing pages](https://www.prefect.io/data-engineers), [case studies](https://www.prefect.io/blog/rec-room-case-study), [tutorials](https://www.prefect.io/blog/schedule-your-code-quickly-with-flow-dot-serve), and [blogs](https://www.prefect.io/blog/a-platform-approach-to-workflow-orchestration)(some of which are ghost written).
+- Some examples from prefect.io, including [landing pages](https://www.prefect.io/data-engineers), [case studies](https://www.prefect.io/blog/rec-room-case-study), [tutorials](https://www.prefect.io/blog/schedule-your-code-quickly-with-flow-dot-serve), and blogs[1](https://www.prefect.io/blog/a-platform-approach-to-workflow-orchestration)[2](https://www.prefect.io/blog/what-is-a-data-pipeline) (some of which are ghost written).
 
 # Videos
 In 2020-2021 I created a series of videos for Tellius:
