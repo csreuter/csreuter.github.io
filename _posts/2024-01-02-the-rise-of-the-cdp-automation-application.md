@@ -71,7 +71,7 @@ It seems to me that what these tools are hearing from users:
 
 and that they’re taking action to build this thing - carving out market share from two different categories.
 
-![CDP Automation Application](/assets/img/cdp-2.png){:width="100%"}
+![CDP Automation Application](/assets/img/cdp-2.png){:width="60%"}
 
 ## What’s next?
 
