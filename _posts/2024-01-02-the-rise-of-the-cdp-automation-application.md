@@ -29,7 +29,7 @@ Recently there has been a surprising growth in the number of tools acting explic
 - Hightouch
 - Klaviyo
 
-These include marketing platforms, data catalogs, reverse ETL, and even sales accelerator tools. All of these that I have included have some marketing around them being a CDP out ther ein the world. So why did all of these different categories decide to enter the CDP space? I would posit the answer is related to automation.
+These include marketing platforms, data catalogs, reverse ETL, and even sales accelerator tools. All of these that I have included have some marketing around them being a CDP out there in the world. So why did all of these different categories decide to enter the CDP space? I would posit the answer is related to automation.
 
 ## Workflows are processes
 
@@ -49,7 +49,7 @@ Automation from 1980 to 2010 was migrating out of individual tools where they st
 
 One great example of early automation is Salesforce, who built their own (awful) workflow tool built around Apex and XML. This was a company with hundreds of millions of dollars, and their automations barely hung together. Imagine trying to build automation within your own application pre-2010 when you were a tool NOT focused on automation.
 
-~10 years ago, code-first orchestrators (Airflow next, now Prefect and others) entered the scene[^2]. As the barriers to entry for creating applications have slowly been reduced to rubble[^3}, so have the barriers to entry for embedding workflow automation into applications: all thanks to the orchestrators. Code-first orchestration tools mean that automation can be exposed to users of SaaS applications when previously that was really hard to build for those application developers.
+~10 years ago, code-first orchestrators (Airflow next, now Prefect and others) entered the scene[^2]. As the barriers to entry for creating applications have slowly been reduced to rubble[^3], so have the barriers to entry for embedding workflow automation into applications: all thanks to the orchestrators. Code-first orchestration tools mean that automation can be exposed to users of SaaS applications when previously that was really hard to build for those application developers.
 
 From Orbit to Klaviyo to customer.io: powerful automation is now been distributed into the SaaS applications. So why are they calling themselves CDPs?
 
