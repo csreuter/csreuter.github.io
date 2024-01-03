@@ -77,7 +77,11 @@ and that they’re taking action to build this thing - carving out market share 
 
 Is the modal CDP destined to move towards the SaaS applications that are adding workflows[^4]? Or is co-opting of the CDP market an indication of intense competition for market share driven by hungry startups?
 
-My bet: this is an overall market expansion for both automation and CDPs, where the low end of the market (less technical users and those who wouldn’t buy a standalone or automation tool) will enjoy features provided by the tools they already use, and eventually become a funnel into the high end CDP and workflow tools mentioned above.
+It is possible that these tools are simple filling in the CDP space with opinionated platforms based on users[^5]? Is a [Revenue Data Platform](https://www.pocus.com/) just a CDP and automation tool for GTM teams? Maybe one could call that, a CDP Automation Application. ;)
+
+My bet: this is an overall market expansion for both automation and CDPs, where the low end of the market (less technical users and those who wouldn’t buy a standalone or automation tool) or the audience-specific parts of the market (GTM, marketing, etc.) will enjoy CDP features tailored to them, and eventually become a funnel into the high end CDP and workflow tools mentioned above when their use cases expand or a company consolidates. 
+
+In the end, more competition for customers is a good thing and drives innovation. I think we're seeing that play out in the CDP space today.
 
 {: .box-note}
 **What was I listening to when writing this?**
@@ -85,6 +89,7 @@ My bet: this is an overall market expansion for both automation and CDPs, where 
 [Chris Thile - Another New World](https://www.youtube.com/watch?v=_n3wHljJQ4M)
 
 [^1]: Rigid for a reason because users are stupid and need it, ask any product manager
-[^2]: See [this excellent read](https://www.prefect.io/blog/brief-history-of-workflow-orchestration) on the history of this time period by Bill Palombi
+[^2]: See [this excellent read](https://www.prefect.io/blog/brief-history-of-workflow-orchestration) on the history of this time period by [Bill Palombi](http://palom.bi/about/)
 [^3]: Everything needed to create an application (infra, networking, UI frameworks, etc) is now super cheap and super easy to use
 [^4]: For more on platforms check out [this piece I wrote](https://chrisreuter.me/2023-04-26-platforms/)
+[^5]: Thanks to Bill for helping me round out the ending here
