@@ -22,12 +22,12 @@ Examples of CDPs that built the category are Segment and Amplitude, followed by 
 
 Recently there has been a surprising growth in the number of tools acting explicitly or implicitly as a Customer Data Platform (CDP). Some of which I’ve used, some of which I haven’t:
 
-- customer.io
-- Atlan
-- Pocus
-- Census
-- Hightouch
-- Klaviyo
+- [customer.io](https://customer.io/)
+- [Atlan](https://atlan.com/)
+- [Pocus](https://www.pocus.com/)
+- [Census](https://www.getcensus.com/)
+- [Hightouch](https://hightouch.com/)
+- [Klaviyo](https://www.klaviyo.com/)
 
 These include marketing platforms, data catalogs, reverse ETL, and even sales accelerator tools. All of these that I have included have some marketing around them being a CDP out there in the world. So why did all of these different categories decide to enter the CDP space? I would posit the answer is related to automation.
 
