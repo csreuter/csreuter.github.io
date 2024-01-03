@@ -59,9 +59,7 @@ From Orbit to Klaviyo to customer.io: powerful automation is now been distribute
 
 The entire reason for a CDP to exist, is to take some action based on unified information. Automation without triggers is useless: if you don’t know you’re hungry, you (probably) will never start the process to make yourself some oatmeal.
 
-<div style="text-align: center">
 ![CDPs + Workflow Tools](/assets/img/cdp-1.png){:width="80%"}
-</div>
 
 The original CDPs were headless: developer tools aimed at being for integration and segmentation in service of analytics. What they morphed into were operational integration tools: serving some action (make my oatmeal!) in some other system (Control-M, ActiveBatch, some custom tool, etc).
 
@@ -73,9 +71,7 @@ It seems to me that what these tools are hearing from users:
 
 and that they’re taking action to build this thing - carving out market share from two different categories.
 
-<div style="text-align: center">
 ![CDP Automation Application](/assets/img/cdp-2.png){:width="30%"}
-</div>
 
 ## What’s next?
 
