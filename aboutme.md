@@ -9,15 +9,19 @@ description: Chris Reuter is a human.
 
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
 
-I’m currently Director of Product Marketing at [Prefect](https://www.prefect.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
+I’m currently Head of Product Marketing at [Resourcely](https://www.resourcely.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
 
 - Currently residing in <s>Maine</s> <s>Boston</s> <s>Connecticut</s> <s>Maine</s> <s>DC</s> Virginia
 - I grew up in Maine, which influences quite a bit of my life today
 - Get in touch via the links at the bottom
 
-**Prefect 2021-Present**
+**Resourcely 2024-Present**
 
-I joined Prefect in late 2021 as Head of Growth, where I continue to learn about PLG, GTM models and company strategy. I started with a focus on growth marketing and demand generation, and am now responsible for product marketing including positioning, messaging, and ICPs. I work closely with our sales and product teams.
+I joined Resourcely as lucky number 13. I'm responsible for marketing, from soup to nuts!
+
+**Prefect 2021-2024**
+
+I joined Prefect in late 2021 as Head of Growth and number 33, where I continued to learn about PLG, GTM models and company strategy. I started with a focus on growth marketing and demand generation, and ended being responsible for product marketing: positioning, messaging, and ICPs.
 
 **Tellius 2020-2021**
 
