@@ -1,95 +1,166 @@
 ---
 layout: post
-title: The rise of the CDP Automation Application
-subtitle: What's with all the new CDP + Workflow tools?
-description: Is it a bird, a plane, a CDP, or a workflow buidler?
-tags: [workflow, CDP, SaaS]
+title: Atlas, the dog
+subtitle: The life and times of slumpy
+description: 
+tags: [personal, dogs]
 thumbnail-img: /assets/img/cdp-preview.png
 share-img: /assets/img/bartcdp-preview.png
 comments: false
 ---
-## The Customer Data Platform (CDP)
+## Atlas, the dog
 
-Traditionally (and these aren’t even that old, so tradition is used loosely here) a CDP is a headless tool that is used to create a dataset representing all of the information about a company’s customers. These are accessible by other tools, focusing on:
+Our dog, Atlas, passed away on December 21st, 2024. He played a large role in my life as I developed from a stupid 24 year old to an equally stupid 36 year old, and this is the story of his life.
 
-- integration of data about customers from various sources
-- de-duplication of said data and customers
-- persisting all of it to your data warehouse (hence the headless)
+—
 
-Examples of CDPs that built the category are Segment and Amplitude, followed by an open source version with Posthog.
+In August 2012, I graduated from the MBA program at [Northeastern](https://www.northeastern.edu/) and accepted a resources analyst role at IBM in Somers, NY. I moved to an apartment in Danbury, CT, and started my fledgling professional career.
 
-## Co-opting the CDP
+Danbury wasn’t for me. I had chosen it because of the cheap rent, and I quickly learned it was primarily a bedroom community for the NY metro area. I lived in a large apartment complex right on the CT and NY border with an eclectic mix of people, and I was lucky enough to meet some coworkers my age at the IBM office…but I was feeling very alone. I shopped at Trader Joe’s, tried to do some hikes on weekends, and played a lot of video games. That was the extent of my social calendar.
 
-Recently there has been a surprising growth in the number of tools acting explicitly or implicitly as a Customer Data Platform (CDP). Some of which I’ve used, some of which I haven’t:
+In early 2013, I decided that I would get a dog. I thought that a dog would give me companionship, a purpose, and a mission in life.
 
-- [customer.io](https://customer.io/)
-- [Atlan](https://atlan.com/)
-- [Pocus](https://www.pocus.com/)
-- [Census](https://www.getcensus.com/)
-- [Hightouch](https://hightouch.com/)
-- [Klaviyo](https://www.klaviyo.com/)
+I started by researching dog breeds: what kind of dog did I want to spend my time with? A mutt, a golden retriever? Around this time, I remember going to a pet store in Danbury and meeting a Neapolitan Mastiff puppy. He was adorable, but I wasn’t ready to bring a dog home that day…and when I went back later that week, he was gone.
 
-These include marketing platforms, data catalogs, reverse ETL, and even sales accelerator tools. All of these that I have included have some marketing around them being a CDP out there in the world. So why did all of these different categories decide to enter the CDP space? I would posit the answer is related to automation.
+I decided that the dog for me wouldn’t need long walks, would be loyal, and would be large. I stumbled upon the Bullmastiff breed based on that criteria.
 
-## Workflows are processes
+After looking around for a couple of months, I found a breeder that had recently had a litter of Bullmastiff puppies in New Hampshire. I drove to New Hampshire one weekend around Labor Day, and met a 6 week old puppy named Atlas.
 
-Everybody has recurring tasks that they perform at home. Maybe you make oatmeal every morning. Let’s assume you aren’t a maniac and you make your oatmeal the correct way (on the stove) - every morning you take out a pot, measure some milk, put it in the pot, measure some oats, put those in the pot, turn on the heat, and so on.
+Atlas was the last male that wasn’t spoken for. He was sleeping in a pile of other puppies. The breeder picked him up, and put him in my lap. Immediately, he shoved his face into my arm in order to sleep more. I told the breeder right there that I’d take him.
 
-Cooking oatmeal is a workflow: you decide you’re hungry, so you take the steps needed to make delicious, savory oatmeal. Workflows are processes (like cooking oatmeal), with step by step actions that occur based on some trigger condition.
+—
 
-## Automation
+At 12 weeks old, Atlas came to live with me. We lived in my small apartment in Danbury. I was going to work 5 days a week at this time, so I would come home at lunch to walk him. He started out in a crate at nights, which he grew to love (and eventually hate). I wasn’t supposed to have a dog in this apartment, and the first few nights he howled and screamed for most off the night.
 
-In yesteryear, and still to some extent, business processes were performed by humans. A credit card application was at one point reviewed by a human, who followed some process and then returned an approval or denial. Today, most credit card applications along with other rote tasks are automated by a computer. 
+I would take Atlas to the park frequently. He was a cute puppy, fairly confident but timid around strange things (fire hydrants, funny-looking dogs, rocking horses).
 
-These automated workflows are inherently cheaper than those performed by humans: we’re really slow counters compared to machines, and we’re really bad at doing more than one task at once. Therefore, much of work today is humans designing workflows that computers then execute.
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/a782dc02-0896-4423-ba86-b77a896a41ad/image.png)
 
-## The distribution of automation and growth of SaaS
+—
 
-Automation from 1980 to 2010 was migrating out of individual tools where they started (by and large databases), and into the 3rd party GUI schedulers (Control-M, ActiveBatch, JAMS, Stonebranch) or business-user focused RPA tools (Pegasystems, UiPath, Zapier, Appian). Integrating or embedding these tools into your own application is super painful because of the nature of their design: rigid for a reason[^1].
+Atlas and I moved in with a girlfriend for a few months in Boston, and when Atlas was around 1 year old we moved back home to Maine alone. In Boston he loved to look out of windows and bark at people walking by:
 
-One great example of early automation is Salesforce, who built their own (awful) workflow tool built around Apex and XML. This was a company with hundreds of millions of dollars, and their automations barely hung together. Imagine trying to build automation within your own application pre-2010 when you were a tool NOT focused on automation.
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/e1c0d0ef-309f-4cbf-a467-e5a909b837d0/image.png)
 
-~10 years ago, code-first orchestrators (Airflow next, now Prefect and others) entered the scene[^2]. As the barriers to entry for creating applications have slowly been reduced to rubble[^3], so have the barriers to entry for embedding workflow automation into applications: all thanks to the orchestrators. Code-first orchestration tools mean that automation can be exposed to users of SaaS applications when previously that was really hard to build for those application developers.
+When we moved back to Maine, I got a small apartment with a brick patio. Atlas loved to lay in the sun on the patio, chew on bones, go on walks in the city streets, and visit the Valley Street Dog Park in Portland. 
 
-From Orbit to Klaviyo to customer.io: powerful automation is now been distributed into the SaaS applications. So why are they calling themselves CDPs?
+I was feeling pretty defeated and sad about my failed relationship, and Atlas was my constant companion at this time. He went where I went (except for the gym). I got the flu during this time, and Atlas stayed with me the entire day in bed. He never complained once.
 
-## The CDP Automation Application
+During the winter, Portland got one of the biggest snowstorms I had ever seen. I had to move my truck into a snowstorm parking lot. Atlas and I decided to cut under the Casco Bay Bridge through deep snow to walk home (it was shorter). I remember him bunny hopping through the snow because the drifts were so high.
 
-**The answer is: CDPs serve automation…always have.**
+—
 
-The entire reason for a CDP to exist, is to take some action based on unified information. Automation without triggers is useless: if you don’t know you’re hungry, you (probably) will never start the process to make yourself some oatmeal.
+After about a year in that small apartment, I saved up enough money for a down payment on a house in Naples, Maine. It had a couple of acres of land, and access to a huge forest that led to a lake.
 
-![CDPs + Workflow Tools](/assets/img/cdp-1.png){:width="80%"}
+Here is Atlas in Naples on his new lawn, shortly after we moved in:
 
-The original CDPs were headless: developer tools aimed at being for integration and segmentation in service of analytics. What they morphed into were operational integration tools: serving some action (make my oatmeal!) in some other system (Control-M, ActiveBatch, some custom tool, etc).
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5f50ee82-abb4-47ec-99e7-dff44cad9151/image.png)
 
-It seems to me that what these tools are hearing from users:
+Atlas loved his time in Naples. I installed an underground, wireless dog fence. He got shocked once and hated the collar…but he stayed in the yard. I was working from home, and I would leave the door to the house open. Lots of random insects got in, but Atlas had free reign to go inside and outside whenever he liked.
 
-- I want a unified view of all my data (CDP)
-- I want to take action with it (Automation/workflow tool)
-- All in one place
+I built a garage gym in Naples, and Atlas and I became truly inseparable. He would watch me  work out, go on walks to Trickey Pond through the woods, bring the garbage to the dump, and collect sticks. He loved laying by the fire in the winter, until he got too hot - after which he would retreat to the couch.
 
-and that they’re taking action to build this thing - carving out market share from two different categories.
+We had a neighbor at that time named Frank, an older gentleman who had been in the Navy and was now retired. I started traveling occasionally for work, and Frank would watch Atlas whenever I couldn’t.
 
-![CDP Automation Application](/assets/img/cdp-2.png){:width="30%"}
+I got a pair of cats that Atlas learned (begrudgingly) to love:
 
-## What’s next?
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/311469da-ea68-47a4-a4fd-141ea3cfa52a/image.png)
 
-Is the modal CDP destined to move towards the SaaS applications that are adding workflows[^4]? Or is co-opting of the CDP market an indication of intense competition for market share driven by hungry startups?
+I discovered a tumor on the left side of Atlas’ abdomen, and the vet diagnosed it as a mast cell tumor. He got surgery in 2015, and the tumor was successfully removed (and not cancerous). With this type of surgery, they need to take relatively wide margins around the tumor. The night after his surgery, Atlas stood all night long - he wasn’t comfortable enough to lay down. I slept on the floor next to him. The next morning he was able to lay down, and he recovered quickly after that.
 
-It is possible that these tools are simple filling in the CDP space with opinionated platforms based on users[^5]? Is a [Revenue Data Platform](https://www.pocus.com/) just a CDP and automation tool for GTM teams? Maybe one could call that, a CDP Automation Application. ;)
+—
 
-My bet: this is an overall market expansion for both automation and CDPs, where the low end of the market (less technical users and those who wouldn’t buy a standalone or automation tool) or the audience-specific parts of the market (GTM, marketing, etc.) will enjoy CDP features tailored to them, and eventually become a funnel into the high end CDP and workflow tools mentioned above when their use cases expand or a company consolidates. 
+After 2 years in Naples, I had finished renovating the house. I sold it and bought a condo in Portland. I guess I had finally come to terms with my life, and was happy with who I was and how I filled my time. Atlas was a large part of that.
 
-In the end, more competition for customers is a good thing and drives innovation. I think we're seeing that play out in the CDP space today.
+Atlas adapted to city life well. While he missed his yard that he was master and commander of, he found new places that he loved - like the two parks that were close to our condo. Here he is at sunset on the Eastern Promenade (looking West).
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5cde4b80-fe68-4601-8093-6846df1b0eb4/image.png)
+
+Atlas made new friends like Olivia, our downstairs neighbor who would take him on walks every afternoon and watch him when I was away. Here’s Atlas in that small condo, offering me a bone in greeting. He loved to bring people gifts (usually bones):
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/54ab98a3-9614-4b89-ace7-ee3698cceecc/image.png)
+
+Finally, Atlas met Julia (my now wife) in 2018. Here’s the first picture of Atlas with Julia:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/4edbc442-bc5c-4b3e-a9a2-87f3f2fe8a8b/image.png)
+
+Atlas loved Julia immediately. She made sure he got *even more* walks, and he was never without a hand to scratch his ears and rub his belly. It was really Atlas who helped make sure that Julia returned to Maine again and again, and I’m forever grateful for his help.
+
+—
+
+After dating for 9 months, Atlas and I made the move to DC (where Julia lived). Our new apartment was larger than our condo, and Atlas loved his neighborhood in DC. He had big windows he could people-watch out of, a daily walk from a series of dog walkers, and apartment staff that showered him in treats (one for every paw!).
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/a60a9766-fb48-46a8-a7a2-33e953932644/image.png)
+
+We lived near Howard University, and Atlas enjoyed walking up and down 7th Street - eating chicken wing bones as he went. He was an intimidating presence, and he helped keep Julia safe on her walks between our two apartments.
+
+—
+
+In early 2020 we moved to a townhouse in Arlington, Virginia. The pandemic gripped us shortly after, and Atlas was our constant companion through it all. Julia took him on long (for Atlas) daily walks through our neighborhood, and he loved that we were with him every single day. Here he is sharing some cheese and crackers on the back patio there.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/bdafbdfc-b32f-4d62-bf3a-9c6a4bd4cd71/image.png)
+
+It was on one of his constant walks where Atlas protected Julia from an aggressive dog that got away from its owner. He had a chunk taken out of his leg, but he won the day. He was proud of himself that day, even though he had to get some stitches.
+
+—
+
+In late 2020 we bought a house in Herndon, Virginia to be closer to my job at the time. The house had a fenced in yard, windows overlooking our neighborhood, and plenty of cool tile floors for Atlas to lay on. It was his heaven. Here he is with my wife and in-laws on one of his favorite couches:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/1f3b2300-594a-4fa6-8f75-79ebd440f4f3/image.png)
+
+Atlas got walks around the neighborhood, and he ruled his back yard dominion with confidence and grace. In the hot Virginia summers he would sun himself on the patio for 15 minutes, and then move inside to the air conditioning. He frequently rotated between couches and beds. He always slept with us, but it was here where he started nesting in a tight ball at the top of the bed in between the pillows. We loved having him sleep with us.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/41c270d9-e421-45c9-941f-0857ff95869c/image.png)
+
+Atlas loved to smush his head into pillows, or against people. When he did this he would snooze and then start to snore. Sometimes he would bark, growl, and twitch in his sleep. Every so often it would look like he was running in a dream. If the dream seemed too scary, we would always wake him up and let him know we were there.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/01324bff-c442-452a-967a-db8c58055f78/image.png)
+
+Eventually, we noticed that Atlas was getting very lethargic. He was drinking a significant amount of water and eating all of his food right away, where as he had been a grazer throughout his entire life. It took some time, but he was ultimately diagnosed with the pituitary form of Cushing’s Disease.
+
+I’ll take the time to say right now: fuck Cushing Disease. Cushing is the overproduction of cortisol by the adrenal gland. In most cases it is caused by a tumor on the adrenal gland, but some cases (including Atlas’) are caused by a (typically inoperable) tumor on the pituitary gland in the brain.
+
+Atlas started taking trilostane (which he hated). While it did help to address his Cushing symptoms, it made him lose a significant amount of wait and curbed his appetite. We eventually learned that his trilostane dosage may have been too much for him, which is another thing about Cushing: in some dogs it can be atypical, with confusing symptoms and variable dosage requirements.
+
+With his lower weight, Atlas did enjoy longer walks. He would *trot trot trot* as we called it, sometimes for up to two miles. Here is a thinner, more svelte Atlas making sure nobody is causing trouble outside:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/c0fd3a07-8bfb-42fe-9f1d-d251a0266ed8/image.png)
+
+In Virginia, Atlas added some new people to his list of favorites: Kathy and her family. Kathy generously watched Atlas while Julia and I traveled. She had a fenced yard, and would take Atlas on long walks through her neighborhood. She treated Atlas like family, and he reciprocated with constant love and snuggles.
+
+—
+
+In mid-2024 we moved back to Portland, Maine. Atlas again settled into apartment life. He was severely underweight by this time. We took him to a specialist vet here, who let us know that we should take him off the trilostane. He started to eat more, and regained some of the weight he had lost.
+
+Atlas had another sunny corner in our Portland apartment, and enjoyed basking in the sun.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/cd0f8a74-05bd-445e-8f3d-ae133a1d4a88/image.png)
+
+Kathy came to visit, and brought with her a couple McDonald’s cheeseburgers for Atlas:
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/d8d4412f-4de4-4761-a6a3-b2de77f7bdff/image.png)
+
+In Portland, Atlas also found another new friend who gave him cheeseburgers: his walker, Josh. Apparently Atlas was a pro at convincing his best friends to get him cheeseburgers on demand.
+
+In October 2024, Atlas unexpectedly went blind. He did an OK job of adapting to his new disability, but it wasn’t his favorite. He had trouble with the curbs in Portland.
+
+We restarted the trilostane in mid-December, as Atlas’ Cushing symptoms had returned. On December 20th, Atlas had a seizure-like episode. Julia found him that morning, and yelled for me to come see him. I picked him up and laid him on the carpet.
+
+We brought him to the emergency vet, who checked his levels and ruled out any issues with his Cortisol. They suspected a neurological impairment, possibly a tumor. We brought Atlas home that night.
+
+Overnight, he let us know that he was uncomfortable and in significant distress. Julia slept on the floor with him. We both let him know how much we loved him.
+
+On Friday the 21st, it was a cold and brisk morning. We took him for a short walk in Mayor Baxter Woods. When he was walking, he wasn’t in distress. He loved it. We then brought him back to the vet, and talked about quality of life. It was there that we decided to help Atlas across the Rainbow Bridge.
+
+It was a privilege to know him, and a privilege to be there for him when he needed us the most. When we said goodbye to Atlas, he wasn’t in any more pain and he wasn’t scared. I hope one day that we get to see Atlas again, if there is another side.
+
+Atlas taught both Julia and I so much: about loving and caring for other beings, about patience, about forgiveness, and about kindness. He loved us with all his heart, and we loved him totally and without question.
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5a8e65b7-8d78-450d-a2ad-f87339e9a01a/image.png)
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/426be003-ab54-42fe-b408-c18bcb9bce71/image.png)
 
 {: .box-note}
 **What was I listening to when writing this?**
 <br>
-[Chris Thile - Another New World](https://www.youtube.com/watch?v=_n3wHljJQ4M)
-
-[^1]: Rigid for a reason because users are stupid and need it, ask any product manager
-[^2]: See [this excellent read](https://www.prefect.io/blog/brief-history-of-workflow-orchestration) on the history of this time period by [Bill Palombi](http://palom.bi/about/)
-[^3]: Everything needed to create an application (infra, networking, UI frameworks, etc) is now super cheap and super easy to use
-[^4]: For more on platforms check out [this piece I wrote](https://chrisreuter.me/2023-04-26-platforms/)
-[^5]: Thanks to Bill for helping me round out the ending here
+[Sturgill Simpson - Sam](https://www.youtube.com/watch?v=qOpAXzr1W1U)
