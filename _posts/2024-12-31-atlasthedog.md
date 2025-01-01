@@ -4,8 +4,8 @@ title: Atlas, the dog
 subtitle: The life and times of slumpy
 description: 
 tags: [personal, dogs]
-thumbnail-img: /assets/img/cdp-preview.png
-share-img: /assets/img/bartcdp-preview.png
+thumbnail-img: /assets/img/atlas1.png
+share-img: /assets/img/atlas1.png
 comments: false
 ---
 ## Atlas, the dog
@@ -28,19 +28,21 @@ After looking around for a couple of months, I found a breeder that had recently
 
 Atlas was the last male that wasn’t spoken for. He was sleeping in a pile of other puppies. The breeder picked him up, and put him in my lap. Immediately, he shoved his face into my arm in order to sleep more. I told the breeder right there that I’d take him.
 
+![Atlas](/assets/img/atlas0.jpg)
+
 —
 
 At 12 weeks old, Atlas came to live with me. We lived in my small apartment in Danbury. I was going to work 5 days a week at this time, so I would come home at lunch to walk him. He started out in a crate at nights, which he grew to love (and eventually hate). I wasn’t supposed to have a dog in this apartment, and the first few nights he howled and screamed for most off the night.
 
 I would take Atlas to the park frequently. He was a cute puppy, fairly confident but timid around strange things (fire hydrants, funny-looking dogs, rocking horses).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/a782dc02-0896-4423-ba86-b77a896a41ad/image.png)
+![Atlas](/assets/img/atlas1.png)
 
 —
 
 Atlas and I moved in with a girlfriend for a few months in Boston, and when Atlas was around 1 year old we moved back home to Maine alone. In Boston he loved to look out of windows and bark at people walking by:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/e1c0d0ef-309f-4cbf-a467-e5a909b837d0/image.png)
+![Atlas](/assets/img/atlas2.png)
 
 When we moved back to Maine, I got a small apartment with a brick patio. Atlas loved to lay in the sun on the patio, chew on bones, go on walks in the city streets, and visit the Valley Street Dog Park in Portland. 
 
@@ -54,7 +56,7 @@ After about a year in that small apartment, I saved up enough money for a down p
 
 Here is Atlas in Naples on his new lawn, shortly after we moved in:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5f50ee82-abb4-47ec-99e7-dff44cad9151/image.png)
+![Atlas](/assets/img/atlas3.png)
 
 Atlas loved his time in Naples. I installed an underground, wireless dog fence. He got shocked once and hated the collar…but he stayed in the yard. I was working from home, and I would leave the door to the house open. Lots of random insects got in, but Atlas had free reign to go inside and outside whenever he liked.
 
@@ -64,7 +66,7 @@ We had a neighbor at that time named Frank, an older gentleman who had been in t
 
 I got a pair of cats that Atlas learned (begrudgingly) to love:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/311469da-ea68-47a4-a4fd-141ea3cfa52a/image.png)
+![Atlas](/assets/img/atlas4.png)
 
 I discovered a tumor on the left side of Atlas’ abdomen, and the vet diagnosed it as a mast cell tumor. He got surgery in 2015, and the tumor was successfully removed (and not cancerous). With this type of surgery, they need to take relatively wide margins around the tumor. The night after his surgery, Atlas stood all night long - he wasn’t comfortable enough to lay down. I slept on the floor next to him. The next morning he was able to lay down, and he recovered quickly after that.
 
@@ -74,15 +76,15 @@ After 2 years in Naples, I had finished renovating the house. I sold it and boug
 
 Atlas adapted to city life well. While he missed his yard that he was master and commander of, he found new places that he loved - like the two parks that were close to our condo. Here he is at sunset on the Eastern Promenade (looking West).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5cde4b80-fe68-4601-8093-6846df1b0eb4/image.png)
+![Atlas](/assets/img/atlas5.png)
 
 Atlas made new friends like Olivia, our downstairs neighbor who would take him on walks every afternoon and watch him when I was away. Here’s Atlas in that small condo, offering me a bone in greeting. He loved to bring people gifts (usually bones):
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/54ab98a3-9614-4b89-ace7-ee3698cceecc/image.png)
+![Atlas](/assets/img/atlas6.png)
 
 Finally, Atlas met Julia (my now wife) in 2018. Here’s the first picture of Atlas with Julia:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/4edbc442-bc5c-4b3e-a9a2-87f3f2fe8a8b/image.png)
+![Atlas](/assets/img/atlas7.png)
 
 Atlas loved Julia immediately. She made sure he got *even more* walks, and he was never without a hand to scratch his ears and rub his belly. It was really Atlas who helped make sure that Julia returned to Maine again and again, and I’m forever grateful for his help.
 
@@ -90,7 +92,7 @@ Atlas loved Julia immediately. She made sure he got *even more* walks, and he wa
 
 After dating for 9 months, Atlas and I made the move to DC (where Julia lived). Our new apartment was larger than our condo, and Atlas loved his neighborhood in DC. He had big windows he could people-watch out of, a daily walk from a series of dog walkers, and apartment staff that showered him in treats (one for every paw!).
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/a60a9766-fb48-46a8-a7a2-33e953932644/image.png)
+![Atlas](/assets/img/atlas8.png)
 
 We lived near Howard University, and Atlas enjoyed walking up and down 7th Street - eating chicken wing bones as he went. He was an intimidating presence, and he helped keep Julia safe on her walks between our two apartments.
 
@@ -98,7 +100,7 @@ We lived near Howard University, and Atlas enjoyed walking up and down 7th Stree
 
 In early 2020 we moved to a townhouse in Arlington, Virginia. The pandemic gripped us shortly after, and Atlas was our constant companion through it all. Julia took him on long (for Atlas) daily walks through our neighborhood, and he loved that we were with him every single day. Here he is sharing some cheese and crackers on the back patio there.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/bdafbdfc-b32f-4d62-bf3a-9c6a4bd4cd71/image.png)
+![Atlas](/assets/img/atlas9.png)
 
 It was on one of his constant walks where Atlas protected Julia from an aggressive dog that got away from its owner. He had a chunk taken out of his leg, but he won the day. He was proud of himself that day, even though he had to get some stitches.
 
@@ -106,15 +108,15 @@ It was on one of his constant walks where Atlas protected Julia from an aggressi
 
 In late 2020 we bought a house in Herndon, Virginia to be closer to my job at the time. The house had a fenced in yard, windows overlooking our neighborhood, and plenty of cool tile floors for Atlas to lay on. It was his heaven. Here he is with my wife and in-laws on one of his favorite couches:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/1f3b2300-594a-4fa6-8f75-79ebd440f4f3/image.png)
+![Atlas](/assets/img/atlas10.png)
 
 Atlas got walks around the neighborhood, and he ruled his back yard dominion with confidence and grace. In the hot Virginia summers he would sun himself on the patio for 15 minutes, and then move inside to the air conditioning. He frequently rotated between couches and beds. He always slept with us, but it was here where he started nesting in a tight ball at the top of the bed in between the pillows. We loved having him sleep with us.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/41c270d9-e421-45c9-941f-0857ff95869c/image.png)
+![Atlas](/assets/img/atlas11.png)
 
 Atlas loved to smush his head into pillows, or against people. When he did this he would snooze and then start to snore. Sometimes he would bark, growl, and twitch in his sleep. Every so often it would look like he was running in a dream. If the dream seemed too scary, we would always wake him up and let him know we were there.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/01324bff-c442-452a-967a-db8c58055f78/image.png)
+![Atlas](/assets/img/atlas12.png)
 
 Eventually, we noticed that Atlas was getting very lethargic. He was drinking a significant amount of water and eating all of his food right away, where as he had been a grazer throughout his entire life. It took some time, but he was ultimately diagnosed with the pituitary form of Cushing’s Disease.
 
@@ -124,7 +126,7 @@ Atlas started taking trilostane (which he hated). While it did help to address h
 
 With his lower weight, Atlas did enjoy longer walks. He would *trot trot trot* as we called it, sometimes for up to two miles. Here is a thinner, more svelte Atlas making sure nobody is causing trouble outside:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/c0fd3a07-8bfb-42fe-9f1d-d251a0266ed8/image.png)
+![Atlas](/assets/img/atlas13.png)
 
 In Virginia, Atlas added some new people to his list of favorites: Kathy and her family. Kathy generously watched Atlas while Julia and I traveled. She had a fenced yard, and would take Atlas on long walks through her neighborhood. She treated Atlas like family, and he reciprocated with constant love and snuggles.
 
@@ -134,11 +136,11 @@ In mid-2024 we moved back to Portland, Maine. Atlas again settled into apartment
 
 Atlas had another sunny corner in our Portland apartment, and enjoyed basking in the sun.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/cd0f8a74-05bd-445e-8f3d-ae133a1d4a88/image.png)
+![Atlas](/assets/img/atlas14.png)
 
 Kathy came to visit, and brought with her a couple McDonald’s cheeseburgers for Atlas:
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/d8d4412f-4de4-4761-a6a3-b2de77f7bdff/image.png)
+![Atlas](/assets/img/atlas15.png)
 
 In Portland, Atlas also found another new friend who gave him cheeseburgers: his walker, Josh. Apparently Atlas was a pro at convincing his best friends to get him cheeseburgers on demand.
 
@@ -156,9 +158,9 @@ It was a privilege to know him, and a privilege to be there for him when he need
 
 Atlas taught both Julia and I so much: about loving and caring for other beings, about patience, about forgiveness, and about kindness. He loved us with all his heart, and we loved him totally and without question.
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/5a8e65b7-8d78-450d-a2ad-f87339e9a01a/image.png)
+![Atlas](/assets/img/atlas16.png)
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/705862fe-6652-48aa-b8c1-c8f658946a46/426be003-ab54-42fe-b408-c18bcb9bce71/image.png)
+![Atlas](/assets/img/atlas17.png)
 
 {: .box-note}
 **What was I listening to when writing this?**
