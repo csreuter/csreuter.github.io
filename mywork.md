@@ -6,13 +6,11 @@ description: Check out some of the projects or content I have created or worked 
 ---
 # Work Projects
 ## Resourcely
-- Report to the CEO as the first marketer
 - I built [Resourcely's](https://www.resourcely.io) messaging platform, wrote 99% of our website copy, and led the redesign of our website along with some great partners
-- Working with my GTM colleagues (CEO and Head of Sales), built and iterated on our ideal customer profile understanding. Interview customer and prospects constantly.
-- Work closely with our engineers, helping to steer product direction
-- Manage our customer-facing [documentation](https://docs.resourcely.io)
+- Manage and write much of our customer-facing [documentation](https://docs.resourcely.io)
 - Established our newsletter, Securely Sourced
 - Implemented marketing ops tooling, including one of my favorites - [customer.io](https://www.customer.io). With this we automate email marketing and a variety of internal workflows (such as triaging product signups)
+- Helped build [Cloud Guardrails](https://www.cloudguardrails.com/), a fun open source project
 
 ## Prefect
 - Reported to the CRO and eventually the COO
