@@ -9,7 +9,9 @@ description: Chris Reuter is a human.
 
 ![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
 
-I’m currently VP of Marketing at [CloudQuery](https://www.cloudquery.io). I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
+I’m currently VP of Marketing at [CloudQuery](https://www.cloudquery.io). I invest in a variety of companies: I am an investor in early-stage technology companies as an individual angel, and I'm a member of an investment collective based in Maine called Backwoods Capital with some of my close friends.
+
+I like Maine (the US State), software & analytics, woodworking, hiking, travel, and spending time with my wife & dog.
 
 - Currently residing in <s>Maine</s> <s>Boston</s> <s>Connecticut</s> <s>Maine</s> <s>DC</s> <s>Virginia</s> Maine
 - I grew up in Maine, which influences quite a bit of my life today
