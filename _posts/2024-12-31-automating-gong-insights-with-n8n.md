@@ -438,7 +438,7 @@ Here's the complete n8n workflow configuration that powers this automation:
 
 </details>
 
-You can also download the workflow file directly to import into your n8n instance: [Gong Quote Finder.json](/assets/files/Gong Quote Finder.json)
+You can also download the workflow file directly to import into your n8n instance: [Gong Quote Finder.json](/assets/files/Gong-Quote-Finder.json)
 
 
 ## What's Next
