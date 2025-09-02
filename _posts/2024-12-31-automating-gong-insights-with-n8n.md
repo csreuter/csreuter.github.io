@@ -6,7 +6,7 @@ description: How I built an n8n workflow to automatically extract interesting qu
 tags: [automation, n8n, gong, ai, chatgpt, slack, workflow]
 thumbnail-img: /assets/img/n8n-gong.png
 share-img: /assets/img/n8n-gong.png
-comments: true
+comments: false
 ---
 
 ![n8n workflow](/assets/img/n8n-gong.png)
@@ -438,7 +438,7 @@ Here's the complete n8n workflow configuration that powers this automation:
 
 </details>
 
-You can also download the workflow file directly to import into your n8n instance: [Gong Quote Finder.json](/assets/files/Gong Quote Finder.json)
+You can also download the workflow file directly to import into your n8n instance: [Gong Quote Finder.json](/assets/files/Gong-Quote-Finder.json)
 
 
 ## What's Next
@@ -451,4 +451,4 @@ Now that I've wired up Gong, Slack, and ChatGPT, I can picture even more automat
 
 ---
 
-*Want to build something similar? The n8n workflow file is available above, and I'm happy to answer any questions you may have*
+*Want to build something similar? The n8n workflow file is available above, and I'm happy to answer any questions you may have.*
