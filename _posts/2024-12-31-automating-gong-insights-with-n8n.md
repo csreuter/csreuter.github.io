@@ -19,7 +19,7 @@ Social proof is one of the best marketing levers we have, but listening to Gong 
 
 ## The Solution: n8n
 
-[Explain your approach and why you chose n8n, ChatGPT, and Slack for this automation]
+My friends (and enemies) all know I love [n8n](https://www.n8n.io): a GUI-based workflow tool. With their native support for Gong, Slack, ChatGPT, and custom code functions, it's a no-brainer (for me) to use n8n.
 
 ### How It Works
 
@@ -30,30 +30,7 @@ The workflow follows these steps:
 
 Here's the full prompt:
 
-You are analyzing a call transcript. Below is the participant list and the transcript.
-
-Your task: extract only the single best direct quote from a customer (not from CloudQuery employees) that would be most useful for product marketing purposes.
-
-Important instructions:
-	•	Choose the most substantive, impactful quote — the one that best reflects value, pain points, or comparisons.
-	•	Do not include more than one quote.
-	•	Return both a direct quote from the customer, and then a paraphrased quote that includes context that we could use on the marketing website.
-	•	Include speaker attribution when possible (which participant said it).
-	•	If no relevant quote is found, return nothing.
-	•	Return the output in the following structured JSON format:
-
-{
-  "best_quote": {
-    "quote": "<exact quote>",
-    "paraphrased_quote": "<paraphrased quote for use in marketing purposes>",
-    "speaker": "<name>",
-    "company": "<company>"
-  }
-
-Here’s the transcript and parties:
-{{ $json.prompt }}
-
-}
+![Prompt](/assets/img/n8n-prompt.png)
 
 3. **Slack Integration**: At the beginning of the workflow, I post a message to an internal Slack channel. Each quote is then displayed as a threaded response to this message.
 
@@ -67,7 +44,7 @@ Here's the complete n8n workflow configuration that powers this automation:
 <details>
 <summary>Click to expand the full n8n workflow JSON</summary>
 
-```json
+{% highlight json %}
 {
   "name": "Gong Quote Finder",
   "nodes": [
@@ -457,7 +434,7 @@ Here's the complete n8n workflow configuration that powers this automation:
   "id": "Uz2BYGiLiBXvzHRo",
   "tags": []
 }
-```
+{% endhighlight %}
 
 </details>
 
