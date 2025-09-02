@@ -10,8 +10,6 @@ I invest in early-stage technology companies as an individual angel investor. I 
 ## [Prefect](https://www.prefect.io)
 **Modern workflow orchestration for data teams**
 
-Prefect is building the new standard in dataflow automation, focused on the modern data stack. I joined Prefect as an employee, helping scale their product-led growth motion from startup to Series A and beyond. Their approach to workflow orchestration solves real problems I experienced firsthand in data engineering.
-
 ## [Resourcely](https://www.resourcely.io) 
 **Cloud infrastructure guardrails that don't get in the way**
 
