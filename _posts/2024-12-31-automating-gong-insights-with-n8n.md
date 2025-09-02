@@ -66,7 +66,7 @@ Here's the complete n8n workflow configuration that powers this automation:
       "name": "Get calls from past week",
       "credentials": {
         "gongApi": {
-          "id": "9oBwBDJJDYXwwDzp",
+          "id": "xxxxxxxx",
           "name": "Gong account"
         }
       }
@@ -130,7 +130,7 @@ Here's the complete n8n workflow configuration that powers this automation:
       "name": "Get transcript and participants",
       "credentials": {
         "gongApi": {
-          "id": "9oBwBDJJDYXwwDzp",
+          "id": "xxxxxxxx",
           "name": "Gong account"
         }
       }
@@ -160,7 +160,7 @@ Here's the complete n8n workflow configuration that powers this automation:
         "messages": {
           "values": [
             {
-              "content": "=You are analyzing a call transcript. Below is the participant list and the transcript.\n\nYour task: extract only the single best direct quote from a customer (not from CloudQuery employees) that would be most useful for product marketing purposes.\n\nImportant instructions:\n\t•\tChoose the most substantive, impactful quote — the one that best reflects value, pain points, or comparisons.\n\t•\tDo not include more than one quote.\n\t•\tReturn both a direct quote from the customer, and then a paraphrased quote that includes context that we could use on the marketing website.\n\t•\tInclude speaker attribution when possible (which participant said it).\n\t•\tIf no relevant quote is found, return nothing.\n\t•\tReturn the output in the following structured JSON format:\n\n{\n  \"best_quote\": {\n    \"quote\": \"<exact quote>\",\n    \"paraphrased_quote\": \"<paraphrased quote for use in marketing purposes>\",\n    \"speaker\": \"<name>\",\n    \"company\": \"<company>\"\n  }\n\nHere's the transcript and parties:\n{{ $json.prompt }}\n\n}"
+              "content": "=You are analyzing a call transcript. Below is the participant list and the transcript.\n\nYour task: extract only the single best direct quote from a customer (not from CloudQuery employees) that would be most useful for product marketing purposes.\n\nImportant instructions:\n\t•\tChoose the most substantive, impactful quote — the one that best reflects value, pain points, or comparisons.\n\t•\tDo not include more than one quote.\n\t•\tReturn both a direct quote from the customer, and then a paraphrased quote that includes context that we could use on the marketing website.\n\t•\tInclude speaker attribution when possible (which participant said it).\n\t•\tIf no relevant quote is found, return nothing.\n\t•\tReturn the output in the following structured JSON format:\n\n{\n  \"best_quote\": {\n    \"quote\": \"<exact quote>\",\n    \"paraphrased_quote\": \"<paraphrased quote for use in marketing purposes>\",\n    \"speaker\": \"<name>\",\n    \"company\": \"<company>\"\n  }\n\nHere’s the transcript and parties:\n{{ $json.prompt }}\n\n}"
             }
           ]
         },
@@ -177,7 +177,7 @@ Here's the complete n8n workflow configuration that powers this automation:
       "name": "Have GPT get quotes",
       "credentials": {
         "openAiApi": {
-          "id": "Ag7JyI9zZlkCdENC",
+          "id": "xxxxxxxx",
           "name": "OpenAi account"
         }
       }
@@ -188,7 +188,7 @@ Here's the complete n8n workflow configuration that powers this automation:
         "select": "channel",
         "channelId": {
           "__rl": true,
-          "value": "C0905FL7DNK",
+          "value": "Cxxxxxxxx",
           "mode": "list",
           "cachedResultName": "marketing-team"
         },
@@ -206,11 +206,11 @@ Here's the complete n8n workflow configuration that powers this automation:
       ],
       "id": "26abbca3-8524-4a86-a235-66120af01203",
       "name": "Kickoff message",
-      "webhookId": "ee9a7d45-eec8-41c7-8451-035afadcef9a",
+      "webhookId": "xxxxxxxx",
       "executeOnce": true,
       "credentials": {
         "slackOAuth2Api": {
-          "id": "17AqD8uTrzEnUuGQ",
+          "id": "xxxxxxxx",
           "name": "Slack account"
         }
       }
@@ -221,11 +221,11 @@ Here's the complete n8n workflow configuration that powers this automation:
         "select": "channel",
         "channelId": {
           "__rl": true,
-          "value": "C0905FL7DNK",
+          "value": "Cxxxxxxxx",
           "mode": "list",
-          "cachedResultName": "marketing-team"
+          "cachedResultName": "channel-name
         },
-        "text": "=*<{{ $('Get transcript and participants').item.json.metaData.url }}|{{ $('Get transcript and participants').item.json.metaData.title.replace(/[<>|]/g, \"\")}}>*\n\n\"{{ $json.message.content.best_quote.paraphrased_quote }}\"\" \n\n_-{{ $json.message.content.best_quote.speaker }} from {{ $json.message.content.best_quote.company }}_",
+        "text": "=*<{{ $('Get transcript and participants').item.json.metaData.url }}|{{ $('Get transcript and participants').item.json.metaData.title.replace(/[<>|]/g, \"\")}}>*\n\n\"{{ $json.message.content.best_quote.paraphrased_quote }}\"\n\n_-{{ $json.message.content.best_quote.speaker }} from {{ $json.message.content.best_quote.company }}_",
         "otherOptions": {
           "includeLinkToWorkflow": false,
           "thread_ts": {
@@ -245,10 +245,10 @@ Here's the complete n8n workflow configuration that powers this automation:
       ],
       "id": "6a7e821e-1725-4204-a414-77af85d22fdf",
       "name": "Reply in thread",
-      "webhookId": "ad4d48d7-1be3-4dd8-a177-803effbb8099",
+      "webhookId": "xxxxxxxx",
       "credentials": {
         "slackOAuth2Api": {
-          "id": "17AqD8uTrzEnUuGQ",
+          "id": "xxxxxxxx",
           "name": "Slack account"
         }
       }
@@ -426,12 +426,12 @@ Here's the complete n8n workflow configuration that powers this automation:
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "c50567a7-afdd-45d6-8cb9-f302d4661392",
+  "versionId": "xxxxxxxx",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "7494247a158e2c999b388670661bf7529fbb8284d7ed0b3c6efc35b40af4c8d4"
+    "instanceId": "xxxxxxxx"
   },
-  "id": "Uz2BYGiLiBXvzHRo",
+  "id": "xxxxxxxx",
   "tags": []
 }
 {% endhighlight %}

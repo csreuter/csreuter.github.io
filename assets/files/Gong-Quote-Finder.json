@@ -19,7 +19,7 @@
       "name": "Get calls from past week",
       "credentials": {
         "gongApi": {
-          "id": "9oBwBDJJDYXwwDzp",
+          "id": "xxxxxxxx",
           "name": "Gong account"
         }
       }
@@ -83,7 +83,7 @@
       "name": "Get transcript and participants",
       "credentials": {
         "gongApi": {
-          "id": "9oBwBDJJDYXwwDzp",
+          "id": "xxxxxxxx",
           "name": "Gong account"
         }
       }
@@ -130,7 +130,7 @@
       "name": "Have GPT get quotes",
       "credentials": {
         "openAiApi": {
-          "id": "Ag7JyI9zZlkCdENC",
+          "id": "xxxxxxxx",
           "name": "OpenAi account"
         }
       }
@@ -141,7 +141,7 @@
         "select": "channel",
         "channelId": {
           "__rl": true,
-          "value": "C0905FL7DNK",
+          "value": "Cxxxxxxxx",
           "mode": "list",
           "cachedResultName": "marketing-team"
         },
@@ -159,11 +159,11 @@
       ],
       "id": "26abbca3-8524-4a86-a235-66120af01203",
       "name": "Kickoff message",
-      "webhookId": "ee9a7d45-eec8-41c7-8451-035afadcef9a",
+      "webhookId": "xxxxxxxx",
       "executeOnce": true,
       "credentials": {
         "slackOAuth2Api": {
-          "id": "17AqD8uTrzEnUuGQ",
+          "id": "xxxxxxxx",
           "name": "Slack account"
         }
       }
@@ -174,9 +174,9 @@
         "select": "channel",
         "channelId": {
           "__rl": true,
-          "value": "C0905FL7DNK",
+          "value": "Cxxxxxxxx",
           "mode": "list",
-          "cachedResultName": "marketing-team"
+          "cachedResultName": "channel-name
         },
         "text": "=*<{{ $('Get transcript and participants').item.json.metaData.url }}|{{ $('Get transcript and participants').item.json.metaData.title.replace(/[<>|]/g, \"\")}}>*\n\n\"{{ $json.message.content.best_quote.paraphrased_quote }}\"\n\n_-{{ $json.message.content.best_quote.speaker }} from {{ $json.message.content.best_quote.company }}_",
         "otherOptions": {
@@ -198,10 +198,10 @@
       ],
       "id": "6a7e821e-1725-4204-a414-77af85d22fdf",
       "name": "Reply in thread",
-      "webhookId": "ad4d48d7-1be3-4dd8-a177-803effbb8099",
+      "webhookId": "xxxxxxxx",
       "credentials": {
         "slackOAuth2Api": {
-          "id": "17AqD8uTrzEnUuGQ",
+          "id": "xxxxxxxx",
           "name": "Slack account"
         }
       }
@@ -379,11 +379,11 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "b154d399-b0ed-470f-886d-bd1b5d3a6665",
+  "versionId": "xxxxxxxx",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "7494247a158e2c999b388670661bf7529fbb8284d7ed0b3c6efc35b40af4c8d4"
+    "instanceId": "xxxxxxxx"
   },
-  "id": "Uz2BYGiLiBXvzHRo",
+  "id": "xxxxxxxx",
   "tags": []
 }
