@@ -57,7 +57,7 @@ Here’s the transcript and parties:
 
 3. **Slack Integration**: At the beginning of the workflow, I post a message to an internal Slack channel. Each quote is then displayed as a threaded response to this message.
 
-![Slack message](/assets/img/n8n-gong.png)
+![Slack message](/assets/img/n8n-slack.png)
 
 
 ## The n8n Workflow
