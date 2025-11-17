@@ -1,6 +1,6 @@
 `pip install -U csreuter`
 
-![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4){:height="250px" width="250px" .center}
+![A picture of me](https://avatars.githubusercontent.com/u/88755934?v=4)
 
 I’m currently VP of Marketing at [CloudQuery](https://www.cloudquery.io). I invest in a variety of companies: I am an investor in early-stage technology companies as an individual angel, and I'm a member of an investment collective based in Maine called Backwoods Capital with some of my close friends.
 
